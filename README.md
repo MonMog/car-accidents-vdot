@@ -6,6 +6,7 @@ This is a project that I will be working on that will display recorded car accid
 
 
 # Credits
-https://www.youtube.com/@TheCodingTrain
-https://leafletjs.com/
-https://www.openstreetmap.org/
+
+- https://www.youtube.com/@TheCodingTrain
+- https://leafletjs.com/
+- https://www.openstreetmap.org/

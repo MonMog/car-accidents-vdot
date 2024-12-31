@@ -1,8 +1,12 @@
 name: Run Python Script
 
+# on:
+#   schedule:
+#     - cron: "*/15 * * * *"  # should be every 15mins for now, just want to test and see if it works
+# disabled for now so I cna debug
 on:
-  schedule:
-    - cron: "*/15 * * * *"  # should be every 15mins for now, just want to test and see if it works
+  workflow_dispatch:  # Allows manual trigger via GitHub UI
+
 
 jobs:
   run-script:

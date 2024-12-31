@@ -42,8 +42,7 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
 
-          FILE=$(find output -type f -print -quit)
-          git add $FILE
+          git add output/*.csv
           git add -u .
           git commit -m "automated CSV file downloaded???"
           git push

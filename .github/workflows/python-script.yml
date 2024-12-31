@@ -31,12 +31,13 @@ jobs:
         # env:
         #   DOWNLOAD_DIR: ./output           # rm -f ./output/*.csv
         run: |
-          python main.py
-          echo "CSV_FILE_PATH=$(grep -oP 'CSV_FILE_PATH=\K.*' <<< ${{ steps.download_csv.outputs.stdout }})"
+          output=$(python main.py)
+          echo "CSV_FILE_PATH=$(echo $output | grep -oP 'CSV_FILE_PATH=\K.*')"
+          echo "CSV_FILE_PATH=$CSV_FILE_PATH"
 
       - name: Commit and Push Changes
         run: |
-          csv_file_path="${{ steps.download_csv.outputs.csv_file_path }}"
+          csv_file_path="${{ steps.download_csv.outputs.CSV_FILE_PATH }}"
           echo "Path of the downloaded file: $csv_file_path"
           
           git config --global user.name "GitHub Actions"

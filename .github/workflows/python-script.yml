@@ -1,9 +1,5 @@
 name: Run Python Script
 
-# on:
-#   schedule:
-#     - cron: "*/15 * * * *"  # should be every 15mins for now, just want to test and see if it works
-# disabled for now so I cna debug
 on:
   workflow_dispatch:  # Allows manual trigger via GitHub UI
 
@@ -28,22 +24,17 @@ jobs:
 
       - name: Run Python Script
         id: download_csv
-        # env:
-        #   DOWNLOAD_DIR: ./output           # rm -f ./output/*.csv
+        env:
+          OUTPUT_DIRECTORY: ./output
         run: |
-          output=$(python main.py)
-          echo "CSV_FILE_PATH=$(echo $output | grep -oP 'CSV_FILE_PATH=\K.*')"
-          echo "CSV_FILE_PATH=$CSV_FILE_PATH"
+          python main.py
+          echo "CSV_FILE_PATH=$(find $OUTPUT_DIRECTORY -type f -name '*.csv' -print -quit)"
 
       - name: Commit and Push Changes
         run: |
-          csv_file_path="${{ steps.download_csv.outputs.CSV_FILE_PATH }}"
-          echo "Path of the downloaded file: $csv_file_path"
-          
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
 
-          git add "$csv_file_path" # PLEASE WORK PLEASE PLEASE PLEASE 
-
+          git add "$OUTPUT_DIRECTORY/*.csv"
           git commit -m "automated CSV file downloaded???"
           git push

@@ -9,21 +9,17 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 output_directory = "output"
-# renamed_file = os.path.join(output_directory, "data.csv")
 os.makedirs(output_directory, exist_ok=True)
 
-# for file in glob.glob(os.path.join(output_directory, "*.csv")):
-#     if file.endswith(".csv"):
-#         os.remove(file)
 
 options = webdriver.ChromeOptions()
 options.add_argument("--headless")
-# options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--window-size=1320,780")
 options.add_experimental_option("prefs", {
     "download.default_directory": output_directory,
     "download.prompt_for_download": False,
-    "safebrowsing.enabled": True
+    "safebrowsing.enabled": True,
+    "download.filename": "output.csv"
 })
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
@@ -49,6 +45,9 @@ try:
 
     time.sleep(5)
     print("Slept")
+
+    with open(os.path.join(output_directory, 'output.csv'), 'w') as f:
+        print(f"CSV file written to {output_directory}")
 
 
 finally:

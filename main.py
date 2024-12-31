@@ -10,8 +10,7 @@ import time
 
 output_directory = "output"
 # renamed_file = os.path.join(output_directory, "data.csv")
-
-# os.makedirs(output_directory, exist_ok=True)
+os.makedirs(output_directory, exist_ok=True)
 
 # for file in glob.glob(os.path.join(output_directory, "*.csv")):
 #     if file.endswith(".csv"):
@@ -19,7 +18,7 @@ output_directory = "output"
 
 options = webdriver.ChromeOptions()
 options.add_argument("--headless")
-options.add_argument("--disable-dev-shm-usage")
+# options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--window-size=1320,780")
 options.add_experimental_option("prefs", {
     "download.default_directory": output_directory,

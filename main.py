@@ -54,7 +54,7 @@ try:
     downloaded_files = glob.glob(os.path.join(output_directory, "*.csv"))
     if downloaded_files:
         csv_file_path = downloaded_files[0]
-        print(f"::set-output name=csv_file::{csv_file_path}")
+        print(f"CSV_FILE_PATH={csv_file_path}")
 
 
     # downloaded_files = glob.glob(os.path.join(output_directory, "*.csv"))

@@ -1,0 +1,40 @@
+name: Run Python Script
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"  # should be every 15mins for now, just want to test and see if it works
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install selenium webdriver-manager
+
+      - name: Run Python Script
+        env:
+          DOWNLOAD_DIR: ./output
+        run: |
+          rm -f ./output/*.csv
+          python main.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+          git add output/*.csv
+
+          git commit -m "automated CSV file downloaded???"
+          git push

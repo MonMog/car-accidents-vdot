@@ -12,7 +12,8 @@ output_directory = "output"
 os.makedirs(output_directory, exist_ok=True)
 
 for file in glob.glob(os.path.join(output_directory, "*.csv")):
-    os.remove(file)
+    if file.endswith(".csv"):
+        os.remove(file)
 
 options = webdriver.ChromeOptions()
 options.add_argument("--headless")

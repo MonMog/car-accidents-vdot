@@ -49,6 +49,7 @@ try:
     downloaded_files = glob.glob(os.path.join(output_directory, "*.csv"))
     if downloaded_files:
         os.rename(downloaded_files[0], renamed_file)
+        print(f"::set-output name=csv_file::{renamed_file}")
 
 finally:
     driver.quit()

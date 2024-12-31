@@ -9,13 +9,13 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 output_directory = "output"
-renamed_file = os.path.join(output_directory, "data.csv")
+# renamed_file = os.path.join(output_directory, "data.csv")
 
-os.makedirs(output_directory, exist_ok=True)
+# os.makedirs(output_directory, exist_ok=True)
 
-for file in glob.glob(os.path.join(output_directory, "*.csv")):
-    if file.endswith(".csv"):
-        os.remove(file)
+# for file in glob.glob(os.path.join(output_directory, "*.csv")):
+#     if file.endswith(".csv"):
+#         os.remove(file)
 
 options = webdriver.ChromeOptions()
 options.add_argument("--headless")
@@ -34,22 +34,26 @@ try:
     wait = WebDriverWait(driver, 10)
     traffic_tables_tab = wait.until(EC.element_to_be_clickable((By.ID, "trafficTables")))
     traffic_tables_tab.click()
+    print("clicked")
 
     incidents_option = wait.until(EC.element_to_be_clickable((By.ID, "tblIncd")))
     incidents_option.click()
+    print("2clicked")
 
     search_box = wait.until(EC.presence_of_element_located((By.ID, "incSearchText")))
     search_box.send_keys("incident")
+    print("3clicked")
 
     download_button = wait.until(EC.element_to_be_clickable((By.ID, "download_incd_table_info")))
     download_button.click()
+    print("4clicked")
 
-    time.sleep(15)
+    time.sleep(4)
+    print("Slept")
 
-    downloaded_files = glob.glob(os.path.join(output_directory, "*.csv"))
-    if downloaded_files:
-        os.rename(downloaded_files[0], renamed_file)
-        print(f"::set-output name=csv_file::{renamed_file}")
+    # downloaded_files = glob.glob(os.path.join(output_directory, "*.csv"))
+    # if downloaded_files:
+    #     os.rename(downloaded_files[0], renamed_file)
 
 finally:
     driver.quit()

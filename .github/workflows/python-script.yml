@@ -29,9 +29,8 @@ jobs:
       - name: Run Python Script
         id: download_csv
         # env:
-        #   DOWNLOAD_DIR: ./output
+        #   DOWNLOAD_DIR: ./output           # rm -f ./output/*.csv
         run: |
-          # rm -f ./output/*.csv
           python main.py
           echo "CSV file path: ${{ steps.download_csv.outputs.csv_file }}"
 

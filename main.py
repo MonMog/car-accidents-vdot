@@ -9,6 +9,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 output_directory = "output"
+renamed_file = os.path.join(output_directory, "data.csv")
+
 os.makedirs(output_directory, exist_ok=True)
 
 for file in glob.glob(os.path.join(output_directory, "*.csv")):
@@ -29,7 +31,6 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 try:
     driver.get("https://511.vdot.virginia.gov/")
 
-
     wait = WebDriverWait(driver, 10)
     traffic_tables_tab = wait.until(EC.element_to_be_clickable((By.ID, "trafficTables")))
     traffic_tables_tab.click()
@@ -44,6 +45,10 @@ try:
     download_button.click()
 
     time.sleep(4)
+
+    downloaded_files = glob.glob(os.path.join(output_directory, "*.csv"))
+    if downloaded_files:
+        os.rename(downloaded_files[0], renamed_file)
 
 finally:
     driver.quit()

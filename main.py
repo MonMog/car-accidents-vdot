@@ -43,7 +43,7 @@ try:
     download_button.click()
     print("4clicked")
 
-    time.sleep(5)
+    time.sleep(30)
     print("Slept")
 
     # with open(os.path.join(output_directory, 'output.csv'), 'w') as f:

@@ -25,7 +25,7 @@ jobs:
       - name: Run Python Script
         id: download_csv
         env:
-          OUTPUT_DIRECTORY: ./output
+          OUTPUT_DIRECTORY: output
         run: |
           python main.py
           echo "CSV_FILE_PATH=$(find $OUTPUT_DIRECTORY -type f -name '*.csv' -print -quit)"
@@ -37,7 +37,6 @@ jobs:
 
           cd $OUTPUT_DIRECTORY
           git add *.csv
-          cd ..
-
           git commit -m "automated CSV file downloaded???"
           git push
+

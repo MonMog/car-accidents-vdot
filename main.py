@@ -44,7 +44,7 @@ try:
     download_button = wait.until(EC.element_to_be_clickable((By.ID, "download_incd_table_info")))
     download_button.click()
 
-    time.sleep(4)
+    time.sleep(15)
 
     downloaded_files = glob.glob(os.path.join(output_directory, "*.csv"))
     if downloaded_files:

@@ -18,8 +18,8 @@ options.add_argument("--window-size=1320,780")
 options.add_experimental_option("prefs", {
     "download.default_directory": output_directory,
     "download.prompt_for_download": False,
-    "safebrowsing.enabled": True,
-    "download.filename": "output.csv"
+    "safebrowsing.enabled": True
+    # "download.filename": "output.csv"
 })
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
@@ -46,8 +46,8 @@ try:
     time.sleep(5)
     print("Slept")
 
-    with open(os.path.join(output_directory, 'output.csv'), 'w') as f:
-        print(f"CSV file written to {output_directory}")
+    # with open(os.path.join(output_directory, 'output.csv'), 'w') as f:
+    #     print(f"CSV file written to {output_directory}")
 
 
 finally:

@@ -11,7 +11,7 @@ import time
 output_directory = "output"
 # renamed_file = os.path.join(output_directory, "data.csv")
 
-# os.makedirs(output_directory, exist_ok=True)
+os.makedirs(output_directory, exist_ok=True)
 
 # for file in glob.glob(os.path.join(output_directory, "*.csv")):
 #     if file.endswith(".csv"):
@@ -48,8 +48,14 @@ try:
     download_button.click()
     print("4clicked")
 
-    time.sleep(4)
+    time.sleep(30)
     print("Slept")
+
+    downloaded_files = glob.glob(os.path.join(output_directory, "*.csv"))
+    if downloaded_files:
+        csv_file_path = downloaded_files[0]
+        print(f"::set-output name=csv_file::{csv_file_path}")
+
 
     # downloaded_files = glob.glob(os.path.join(output_directory, "*.csv"))
     # if downloaded_files:

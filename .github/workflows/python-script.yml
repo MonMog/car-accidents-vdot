@@ -44,5 +44,6 @@ jobs:
 
           FILE=$(find output -type f -print -quit)
           git add $FILE
+          git add -u .
           git commit -m "automated CSV file downloaded???"
           git push

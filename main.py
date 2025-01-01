@@ -19,7 +19,6 @@ options.add_experimental_option("prefs", {
     "download.default_directory": output_directory,
     "download.prompt_for_download": False,
     "safebrowsing.enabled": True
-    # "download.filename": "output.csv"
 })
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
@@ -46,8 +45,9 @@ try:
     time.sleep(9)
     print("Slept")
 
-    # with open(os.path.join(output_directory, 'output.csv'), 'w') as f:
-    #     print(f"CSV file written to {output_directory}")
+    list_of_files = glob.glob(f'{output_directory}/*.csv')
+    latest_file = max(list_of_files, key=os.path.getctime)
+    print(f"Latest downloaded file: {latest_file}")
 
 
 finally:

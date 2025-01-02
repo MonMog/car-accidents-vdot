@@ -6,7 +6,6 @@ permissions:
 on:
   workflow_dispatch:
 
-
 jobs:
   run-script:
     runs-on: ubuntu-latest
@@ -14,6 +13,11 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+
+      - name: Install Chromium Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libnss3 libgconf-2-4 libxi6 libxcomposite1 libasound2 libpangocairo-1.0-0
 
       - name: Clean Output Folder
         run: |
@@ -29,21 +33,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install selenium webdriver-manager
 
-      - name: Install Chrome and Dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y wget unzip
-          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-          sudo apt-get install -y ./google-chrome-stable_current_amd64.deb
-          rm google-chrome-stable_current_amd64.deb
-
       - name: Run Python Script
-        id: download_csv
         env:
-          OUTPUT_DIRECTORY: output
+          OUTPUT_DIRECTORY: ${{ github.workspace }}/output
         run: |
           python main.py
-          echo "CSV_FILE_PATH=$(find $OUTPUT_DIRECTORY -type f -name '*.csv' -print -quit)"
 
       - name: Commit and Push Changes
         run: |
@@ -55,5 +49,5 @@ jobs:
           
           git add -u .
           
-          git commit -m "automated CSV file downloaded???"
+          git commit -m "automated CSV file downloaded"
           git push

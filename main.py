@@ -13,7 +13,7 @@ os.makedirs(output_directory, exist_ok=True)
 
 
 options = webdriver.ChromeOptions()
-options.add_argument("--headless")
+# options.add_argument("--headless")
 options.add_argument("--window-size=1320,780")
 options.add_experimental_option("prefs", {
     "download.default_directory": output_directory,

@@ -32,8 +32,7 @@ jobs:
       - name: Install Chrome Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libnss3 libgconf-2-4 libxss1 libappindicator1 libindicator7
-          sudo apt-get install -y fonts-liberation xdg-utils wget curl unzip xvfb chromium-browser
+          sudo apt-get install -y libnss3 libxss1 fonts-liberation xdg-utils wget curl unzip chromium-browser
 
 
       - name: Run Python Script

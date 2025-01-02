@@ -17,11 +17,15 @@ jobs:
       - name: Install Chromium Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libnss3 libgconf-2-4 libxi6 libxcomposite1 libasound2 libpangocairo-1.0-0
+          sudo apt-get install -y libnss3 libxi6 libxcomposite1 libpangocairo-1.0-0 fonts-liberation libappindicator3-1 libatk-bridge2.0-0 libgbm1 libxrandr2 xdg-utils wget
 
       - name: Clean Output Folder
         run: |
           rm -f output/*.csv
+
+      - name: Debug Output Directory
+        run: |
+          ls -al output
 
       - name: Set up Python
         uses: actions/setup-python@v4

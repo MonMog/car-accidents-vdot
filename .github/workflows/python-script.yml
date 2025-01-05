@@ -14,10 +14,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # - name: Install Chromium Dependencies
-      #   run: |
-      #     sudo apt-get update
-      #     sudo apt-get install -y libnss3 libxi6 libxcomposite1 libpangocairo-1.0-0 fonts-liberation libappindicator3-1 libatk-bridge2.0-0 libgbm1 libxrandr2 xdg-utils wget
+      - name: Install Chromium Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libnss3 libxi6 libxcomposite1 libpangocairo-1.0-0 fonts-liberation libappindicator3-1 libatk-bridge2.0-0 libgbm1 libxrandr2 xdg-utils wget
 
       - name: Clean Output Folder
         run: |

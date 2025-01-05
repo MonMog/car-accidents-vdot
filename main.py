@@ -42,7 +42,7 @@ try:
     download_button.click()
     print("4clicked")
 
-    time.sleep(9)
+    time.sleep(3)
     print("Slept")
 
     list_of_files = glob.glob(f'{output_directory}/*.csv')

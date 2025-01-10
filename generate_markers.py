@@ -3,7 +3,7 @@ import json
 import os
 import glob
 
-geojson_file = "onlyVACounties.json"
+geojson_file = "onlyVAcounties.json"
 output_dir = "output"
 output_markers_file = "markers.json"
 

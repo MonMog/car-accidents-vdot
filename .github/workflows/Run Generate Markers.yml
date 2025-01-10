@@ -1,0 +1,37 @@
+name: Generate Markers
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate-markers:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install json5
+
+      - name: Run Marker Generation Script
+        run: |
+          python generate_markers.py
+
+      - name: Commit Markers File
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add markers.json
+          git commit -m "Please work markers please please im begging"
+          git push

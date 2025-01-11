@@ -39,5 +39,25 @@ coordsDisplay.onAdd = function(map) {
 homeButton.addTo(map);
 coordsDisplay.addTo(map);
 
+let activeMarkers = [];
+
+function loadMarkers() {
+  fetch('markers.json')
+    .then(response => response.json())
+    .then(data => {
+      activeMarkers.forEach(marker => map.removeLayer(marker));
+      activeMarkers = [];
+
+      data.forEach(({ latitude, longitude }, index) => {
+        const marker = L.marker([latitude, longitude])
+          .addTo(map)
+          .bindPopup(`Marker ${index + 1}`);
+        activeMarkers.push(marker);
+      });
+    })
+    .catch(error => console.error('Error:', error));
+}
+
+loadMarkers();
 map.setMinZoom(7);
 

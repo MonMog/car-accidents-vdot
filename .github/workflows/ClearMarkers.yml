@@ -1,0 +1,26 @@
+name: Clear Markers
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # every 24 hours
+  workflow_dispatch:
+
+jobs:
+  clear-markers:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Clear Markers File
+        run: |
+          echo "[]" > markers.json
+
+      - name: Commit Changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add markers.json
+          git commit -m "Please tell me its gone"
+          git push

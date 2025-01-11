@@ -45,25 +45,29 @@ function loadMarkers() {
   fetch('markers.json')
     .then(response => response.json())
     .then(data => {
+      
       activeMarkers.forEach(marker => map.removeLayer(marker));
       activeMarkers = [];
 
       data.forEach(({ latitude, longitude, count, reasons }) => {
-        const marker = L.marker([latitude, longitude], {
-          icon: L.divIcon({
-            className: 'custom-div-icon',
-            html: `<div class="marker-count">${count}</div>`,
-            iconSize: [30, 30]
-          })
-        })
-          .addTo(map)
-          .bindPopup(`Accidents: ${count}<br>Reasons: ${reasons.join(", ")}`);
+        const marker = L.marker([latitude, longitude]).addTo(map);
         activeMarkers.push(marker);
+
+        const countLabel = L.divIcon({
+          className: 'marker-label',
+          html: `<div class="count-label">${count}</div>`,
+          iconSize: [0, 0], 
+          iconAnchor: [2, -10] 
+        });
+
+        const labelMarker = L.marker([latitude, longitude], { icon: countLabel }).addTo(map);
+        activeMarkers.push(labelMarker);
+        marker.bindPopup(`Accidents: ${count}<br>Reasons: ${reasons.join(", ")}`);
       });
     })
     .catch(error => console.error('Error:', error));
 }
 
+
 loadMarkers();
 map.setMinZoom(7);
-

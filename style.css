@@ -10,3 +10,10 @@
     height: 1000px;  
     width: 1700px;
 }
+
+.marker-label .count-label {
+    font-size: 16px;
+    font-weight: bold; 
+    color: black; 
+    transform: translateY(-10px); 
+}

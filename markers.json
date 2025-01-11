@@ -1,9 +1,10 @@
 [
   {
-    "latitude": 37.065477,
-    "longitude": -80.713124,
-    "count": 1,
+    "latitude": 36.895829,
+    "longitude": -76.251244,
+    "count": 3,
     "reasons": [
+      "Other Traffic",
       "Disabled Vehicle"
     ]
   },
@@ -16,39 +17,37 @@
     ]
   },
   {
-    "latitude": 37.908916,
-    "longitude": -76.671898,
-    "count": 3,
-    "reasons": [
-      "Disabled Vehicle"
-    ]
-  },
-  {
-    "latitude": 38.864682,
-    "longitude": -78.550997,
-    "count": 1,
-    "reasons": [
-      "Tractor Trailer Crash"
-    ]
-  },
-  {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 2,
+    "count": 4,
     "reasons": [
-      "Advisory",
-      "Disabled Vehicle"
+      "Disabled Vehicle",
+      "Advisory"
     ]
   },
   {
     "latitude": 37.468543,
     "longitude": -77.31012,
-    "count": 5,
+    "count": 1,
     "reasons": [
-      "Vehicle Crash",
-      "Advisory",
-      "Disabled Vehicle",
-      "Tractor Trailer Crash"
+      "Advisory"
+    ]
+  },
+  {
+    "latitude": 37.908916,
+    "longitude": -76.671898,
+    "count": 2,
+    "reasons": [
+      "Tractor Trailer Crash",
+      "Other Traffic"
+    ]
+  },
+  {
+    "latitude": 37.137829,
+    "longitude": -76.554954,
+    "count": 1,
+    "reasons": [
+      "Vehicle Crash"
     ]
   },
   {
@@ -56,8 +55,8 @@
     "longitude": -77.630101,
     "count": 2,
     "reasons": [
-      "Advisory",
-      "Disabled Vehicle"
+      "Disabled Vehicle",
+      "Advisory"
     ]
   },
   {
@@ -71,18 +70,9 @@
   {
     "latitude": 37.837635,
     "longitude": -77.625236,
-    "count": 2,
-    "reasons": [
-      "Vehicle Crash",
-      "Advisory"
-    ]
-  },
-  {
-    "latitude": 36.85046,
-    "longitude": -81.532687,
     "count": 1,
     "reasons": [
-      "Disabled Tractor Trailer"
+      "Advisory"
     ]
   },
   {
@@ -99,6 +89,14 @@
     "count": 1,
     "reasons": [
       "Advisory"
+    ]
+  },
+  {
+    "latitude": 38.82168,
+    "longitude": -77.086715,
+    "count": 1,
+    "reasons": [
+      "Multi-Vehicle Crash"
     ]
   }
 ]

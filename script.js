@@ -48,10 +48,16 @@ function loadMarkers() {
       activeMarkers.forEach(marker => map.removeLayer(marker));
       activeMarkers = [];
 
-      data.forEach(({ latitude, longitude }, index) => {
-        const marker = L.marker([latitude, longitude])
+      data.forEach(({ latitude, longitude, count, reasons }) => {
+        const marker = L.marker([latitude, longitude], {
+          icon: L.divIcon({
+            className: 'custom-div-icon',
+            html: `<div class="marker-count">${count}</div>`,
+            iconSize: [30, 30]
+          })
+        })
           .addTo(map)
-          .bindPopup(`Marker ${index + 1}`);
+          .bindPopup(`Accidents: ${count}<br>Reasons: ${reasons.join(", ")}`);
         activeMarkers.push(marker);
       });
     })

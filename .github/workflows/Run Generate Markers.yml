@@ -4,7 +4,11 @@ permissions:
   contents: write
 
 on:
-  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - uhhh
+    types:
+      - completed
 
 jobs:
   generate-markers:

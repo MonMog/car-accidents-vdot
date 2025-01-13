@@ -79,4 +79,4 @@ for marker in permamarkersMarkers:
         unique_markers[key] = marker
 
 with open(permaMarkers_dir, 'w', encoding='utf-8') as f:
-    json.dump(unique_markers, f, indent=2)
+    json.dump(list(unique_markers), f, indent=2)

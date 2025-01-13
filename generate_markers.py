@@ -7,6 +7,7 @@ from collections import defaultdict
 geojson_file = "onlyVAcounties.json"
 output_dir = "output"
 output_markers_file = "markers.json"
+permaMarkers_dir = "permaMarkers.json"
 
 
 def get_latest_csv(directory):
@@ -60,5 +61,8 @@ for (latitude, longitude), data in county_accidents.items():
     markers.append(marker)
 
 with open(output_markers_file, 'w', encoding='utf-8') as f:
+    json.dump(markers, f, indent=2)
+
+with open(permaMarkers_dir, "w", encoding='utf-8') as f:
     json.dump(markers, f, indent=2)
 

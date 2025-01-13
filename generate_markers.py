@@ -63,20 +63,12 @@ for (latitude, longitude), data in county_accidents.items():
 with open(output_markers_file, 'w', encoding='utf-8') as f:
     json.dump(markers, f, indent=2)
 
-if os.path.exists(permaMarkers_dir):
-    try:
-        with open(permaMarkers_dir, 'r', encoding='utf-8') as f:
-            permamarkersMarkers = json.load(f)
-        print(f"Loaded persistent markers from {permaMarkers_dir}: {permamarkersMarkers}")
-    except json.JSONDecodeError:
-        print("Error: Invalid JSON")
-        permamarkersMarkers = []
-else:
-    permamarkersMarkers = []
-    print(f"{permaMarkers_dir} not found")
+
+with open(permaMarkers_dir, 'r', encoding='utf-8') as f:
+    permamarkersMarkers = json.load(f)
+
 
 permamarkersMarkers.extend(markers)
-print(f"Persistent markers after: {permamarkersMarkers}")
 
 unique_markers = {}
 for marker in permamarkersMarkers:
@@ -87,6 +79,5 @@ for marker in permamarkersMarkers:
     else:
         unique_markers[key] = marker
 
-with open(permaMarkers_dir, 'w', encoding='utf-8') as f:
+with open(permaMarkers_dir, 'w', encoding='utf-8') as f: # IT WASNT WORKING BECAUSE I FORGOT TO ADD IT TO COMMIT !!!!!!!!
     json.dump(list(unique_markers.values()), f, indent=2)
-print(f"Saved updated persistent markers to {permaMarkers_dir}")

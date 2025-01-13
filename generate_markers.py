@@ -69,14 +69,14 @@ with open(permaMarkers_dir, 'r', encoding='utf-8') as f:
 permamarkersMarkers.extend(markers)
 
 
-# unique_markers = {}
-# for marker in permamarkersMarkers:
-#     key = (marker["latitude"], marker["longitude"])
-#     if key in unique_markers:
-#         unique_markers[key]["count"] += marker["count"]
-#         unique_markers[key]["reasons"] = list(set(unique_markers[key]["reasons"]) | set(marker["reasons"]))
-#     else:
-#         unique_markers[key] = marker
+unique_markers = {}
+for marker in permamarkersMarkers:
+    key = (marker["latitude"], marker["longitude"])
+    if key in unique_markers:
+        unique_markers[key]["count"] += marker["count"]
+        unique_markers[key]["reasons"] = list(set(unique_markers[key]["reasons"]) | set(marker["reasons"]))
+    else:
+        unique_markers[key] = marker
 
 with open(permaMarkers_dir, 'w', encoding='utf-8') as f:
-    json.dump(permamarkersMarkers, f, indent=2)
+    json.dump(unique_markers, f, indent=2)

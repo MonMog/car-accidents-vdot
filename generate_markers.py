@@ -70,7 +70,7 @@ permamarkersMarkers.extend(markers)
 
 
 unique_markers = {}
-for marker in persistent_markers:
+for marker in permamarkersMarkers:
     key = (marker["latitude"], marker["longitude"])
     if key in unique_markers:
         unique_markers[key]["count"] += marker["count"]

@@ -63,6 +63,20 @@ for (latitude, longitude), data in county_accidents.items():
 with open(output_markers_file, 'w', encoding='utf-8') as f:
     json.dump(markers, f, indent=2)
 
-with open(permaMarkers_dir, "w", encoding='utf-8') as f:
-    json.dump(markers, f, indent=2)
+with open(permaMarkers_dir, 'r', encoding='utf-8') as f:
+    permamarkersMarkers = json.load(f)
 
+permamarkersMarkers.extend(markers)
+
+
+unique_markers = {}
+for marker in persistent_markers:
+    key = (marker["latitude"], marker["longitude"])
+    if key in unique_markers:
+        unique_markers[key]["count"] += marker["count"]
+        unique_markers[key]["reasons"] = list(set(unique_markers[key]["reasons"]) | set(marker["reasons"]))
+    else:
+        unique_markers[key] = marker
+
+with open(permaMarkers_dir, 'w', encoding='utf-8') as f:
+    json.dump(list(unique_markers.values()), f, indent=2)

@@ -40,6 +40,7 @@ jobs:
           
           git add markers.json 
           git add permaMarkers.json # this has caused me so much agony and despair  
+          git add SeenAccidents.json 
           
           git commit -m "Please work markers please please im begging"
           git push

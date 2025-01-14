@@ -40,7 +40,7 @@ new_incidents = 0
 with open(csv_file, 'r', encoding='utf-8-sig') as f:
     reader = csv.DictReader(f)
     for row in reader:
-        unique_id = f"{row['Jurisdiction']}|{row['Route']}|{row['MRM']}|{row['Description']}"
+        unique_id = f"{row['Update Time']}|{row['Jurisdiction']}|{row['Route']}|{row['MRM']}|{row['Description']}"
         if unique_id in seen_accidents:
             continue
 

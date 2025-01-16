@@ -8,21 +8,35 @@
     <script src="script.js" defer></script>
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-     crossorigin=""/>
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
 
-     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-     crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
 
-
-    <title>Map of car accidents</title>
+    <title>Car Accidents Map</title>
 </head>
 <body>
-    <h1>Still filler text</h1>
-    <div id="stateMap"></div>
+    <header>
+        <h1>Virginia Car Accidents Map</h1>
+        <p>Using data provided by<a href="https://511.vdot.virginia.gov/">VDOT</a>, these maps track accident related incidents and groups them into the county in which they occured.</p>
+    </header>
 
-    <h1>You're not going to believe it text</h1>
-    <div id="permaMap"></div>
+    <main>
+        <section class="map-section">
+            <h2>Accidents within the last 24 hours.</h2>
+            <div id="stateMap"></div>
+        </section>
+
+        <section class="map-section">
+            <h2>Accidents recorded since start of the year.</h2>
+            <div id="permaMap"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Data provided by VDOT. Built for tracking and awareness purposes.</p>
+    </footer>
 </body>
 </html>

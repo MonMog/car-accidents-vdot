@@ -69,14 +69,14 @@
   {
     "latitude": 36.895829,
     "longitude": -76.251244,
-    "count": 27,
+    "count": 28,
     "reasons": [
       "Congestion/Delay",
+      "Other Traffic",
+      "Vehicle Crash",
       "Bridge/Tunnel Stoppage",
       "Disabled Vehicle",
-      "Other Traffic",
-      "Multi-Vehicle Crash",
-      "Vehicle Crash"
+      "Multi-Vehicle Crash"
     ]
   },
   {
@@ -331,11 +331,11 @@
   {
     "latitude": 39.105767,
     "longitude": -77.665006,
-    "count": 6,
+    "count": 7,
     "reasons": [
+      "Disabled Vehicle",
       "Multi-Vehicle Crash",
-      "Vehicle Crash",
-      "Disabled Vehicle"
+      "Vehicle Crash"
     ]
   },
   {
@@ -350,7 +350,7 @@
   {
     "latitude": 37.513721,
     "longitude": -76.993758,
-    "count": 11,
+    "count": 12,
     "reasons": [
       "Disabled Vehicle",
       "Vehicle Crash"

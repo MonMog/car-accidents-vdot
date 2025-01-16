@@ -1,11 +1,6 @@
-const map = L.map('stateMap').setView([37.8000, -79.3000], 8);
-const permaMap = L.map('permaMap').setView([37.8000, -79.3000], 8);
+const map = L.map('stateMap').setView([37.8000, -79.3000], 7);
+const permaMap = L.map('permaMap').setView([37.8000, -79.3000], 7);
 
-
-
-
-const homeButton = L.control({ position: 'topleft' });
-const coordsDisplay = L.control({ position: 'topright' });
 
 function loadCounties(map) {
   fetch('onlyVAcounties.json')
@@ -27,28 +22,6 @@ loadCounties(map);
 loadCounties(permaMap);
 
 
-
-homeButton.onAdd = function(map) {
-  const button = L.DomUtil.create('button', 'home-button');
-  button.innerHTML = 'Reset view';
-  button.onclick = function() {
-    map.setView([37.8000, -79.2000], 8);
-  };
-  return button;
-};
-
-coordsDisplay.onAdd = function(map) {
-  const div = L.DomUtil.create('div', 'coords-display');
-  div.innerHTML = 'Coords: ';
-  map.on('mousemove', function(e) {
-    div.innerHTML = `Coords: ${e.latlng.lat.toFixed(4)}, ${e.latlng.lng.toFixed(4)}`;
-  });
-  return div;
-};
-
-homeButton.addTo(map);
-homeButton.addTo(permaMap);
-coordsDisplay.addTo(map);
 
 
 
@@ -107,3 +80,4 @@ loadPermaMarkers();
 
 
 map.setMinZoom(7);
+permaMap.setMinZoom(7);

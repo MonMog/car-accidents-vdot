@@ -14,16 +14,16 @@
   {
     "latitude": 37.412079,
     "longitude": -77.630101,
-    "count": 60,
+    "count": 61,
     "reasons": [
-      "Other Traffic",
-      "Advisory",
-      "Disabled Vehicle",
       "Vehicle Fire",
       "Disabled Tractor Trailer",
       "Multi-Vehicle Crash",
       "Tractor Trailer Crash",
-      "Vehicle Crash"
+      "Disabled Vehicle",
+      "Vehicle Crash",
+      "Advisory",
+      "Other Traffic"
     ]
   },
   {
@@ -40,7 +40,7 @@
   {
     "latitude": 36.732508,
     "longitude": -81.965996,
-    "count": 7,
+    "count": 8,
     "reasons": [
       "Tractor Trailer Crash",
       "Disabled Vehicle",
@@ -62,30 +62,30 @@
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 290,
+    "count": 292,
     "reasons": [
-      "Advisory",
       "Disabled Tractor Trailer",
-      "Other Traffic",
-      "Disabled Vehicle",
-      "Vehicle Crash",
-      "Congestion/Delay",
       "Multi-Vehicle Crash",
-      "Tractor Trailer Crash"
+      "Tractor Trailer Crash",
+      "Disabled Vehicle",
+      "Congestion/Delay",
+      "Vehicle Crash",
+      "Advisory",
+      "Other Traffic"
     ]
   },
   {
     "latitude": 36.895829,
     "longitude": -76.251244,
-    "count": 80,
+    "count": 81,
     "reasons": [
-      "Other Traffic",
       "Other Security/Police Activity",
-      "Disabled Vehicle",
-      "Vehicle Crash",
       "Multi-Vehicle Crash",
+      "Disabled Vehicle",
       "Congestion/Delay",
-      "Bridge/Tunnel Stoppage"
+      "Vehicle Crash",
+      "Bridge/Tunnel Stoppage",
+      "Other Traffic"
     ]
   },
   {
@@ -119,11 +119,11 @@
   {
     "latitude": 37.575135,
     "longitude": -79.812531,
-    "count": 4,
+    "count": 5,
     "reasons": [
+      "Vehicle Crash",
       "Tractor Trailer Crash",
-      "Disabled Vehicle",
-      "Vehicle Crash"
+      "Disabled Vehicle"
     ]
   },
   {
@@ -147,26 +147,27 @@
   {
     "latitude": 38.656701,
     "longitude": -77.417648,
-    "count": 60,
+    "count": 63,
     "reasons": [
-      "Advisory",
       "Multi-Vehicle Crash",
+      "Tractor Trailer Crash",
       "Disabled Vehicle",
       "Vehicle Crash",
-      "Tractor Trailer Crash"
+      "Advisory"
     ]
   },
   {
     "latitude": 38.449364,
     "longitude": -77.473179,
-    "count": 51,
+    "count": 54,
     "reasons": [
       "Disabled Tractor Trailer",
+      "Multi-Vehicle Crash",
+      "Tractor Trailer Crash",
       "Disabled Vehicle",
       "Vehicle Crash",
-      "Tractor Trailer Crash",
-      "Multi-Vehicle Crash",
-      "Advisory"
+      "Advisory",
+      "Other Traffic"
     ]
   },
   {
@@ -192,14 +193,14 @@
   {
     "latitude": 37.908916,
     "longitude": -76.671898,
-    "count": 42,
+    "count": 43,
     "reasons": [
-      "Vehicle Crash",
       "Multi-Vehicle Crash",
-      "Disabled Tractor Trailer",
-      "Disabled Vehicle",
       "Tractor Trailer Crash",
-      "Other Traffic"
+      "Disabled Vehicle",
+      "Vehicle Crash",
+      "Other Traffic",
+      "Disabled Tractor Trailer"
     ]
   },
   {
@@ -227,10 +228,10 @@
   {
     "latitude": 37.561877,
     "longitude": -77.891701,
-    "count": 2,
+    "count": 3,
     "reasons": [
-      "Closed",
-      "Vehicle Crash"
+      "Vehicle Crash",
+      "Closed"
     ]
   },
   {
@@ -259,11 +260,11 @@
   {
     "latitude": 36.674595,
     "longitude": -76.303354,
-    "count": 25,
+    "count": 26,
     "reasons": [
-      "Disabled Vehicle",
-      "Tractor Trailer Crash",
       "Multi-Vehicle Crash",
+      "Tractor Trailer Crash",
+      "Disabled Vehicle",
       "Vehicle Crash"
     ]
   },
@@ -296,14 +297,14 @@
   {
     "latitude": 37.057972,
     "longitude": -76.368397,
-    "count": 46,
+    "count": 47,
     "reasons": [
       "Multi-Vehicle Crash",
       "Disabled Vehicle",
-      "Other Traffic",
       "Congestion/Delay",
+      "Vehicle Crash",
       "Bridge/Tunnel Stoppage",
-      "Vehicle Crash"
+      "Other Traffic"
     ]
   },
   {
@@ -349,8 +350,9 @@
   {
     "latitude": 36.824778,
     "longitude": -79.395828,
-    "count": 1,
+    "count": 2,
     "reasons": [
+      "Vehicle Crash",
       "Disabled Vehicle"
     ]
   },

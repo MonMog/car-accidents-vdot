@@ -14,16 +14,16 @@
   {
     "latitude": 37.412079,
     "longitude": -77.630101,
-    "count": 66,
+    "count": 67,
     "reasons": [
-      "Disabled Tractor Trailer",
-      "Vehicle Crash",
+      "Other Traffic",
+      "Vehicle Fire",
       "Advisory",
       "Disabled Vehicle",
+      "Vehicle Crash",
       "Multi-Vehicle Crash",
-      "Tractor Trailer Crash",
-      "Other Traffic",
-      "Vehicle Fire"
+      "Disabled Tractor Trailer",
+      "Tractor Trailer Crash"
     ]
   },
   {
@@ -62,16 +62,16 @@
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 392,
+    "count": 393,
     "reasons": [
-      "Disabled Tractor Trailer",
-      "Tractor Trailer Crash",
-      "Vehicle Crash",
-      "Disabled Vehicle",
-      "Multi-Vehicle Crash",
       "Other Traffic",
       "Congestion/Delay",
-      "Advisory"
+      "Advisory",
+      "Disabled Vehicle",
+      "Vehicle Crash",
+      "Multi-Vehicle Crash",
+      "Disabled Tractor Trailer",
+      "Tractor Trailer Crash"
     ]
   },
   {
@@ -165,15 +165,15 @@
   {
     "latitude": 38.449364,
     "longitude": -77.473179,
-    "count": 63,
+    "count": 64,
     "reasons": [
-      "Tractor Trailer Crash",
-      "Multi-Vehicle Crash",
       "Vehicle Crash",
+      "Tractor Trailer Crash",
       "Other Traffic",
-      "Disabled Vehicle",
+      "Multi-Vehicle Crash",
+      "Disabled Tractor Trailer",
       "Advisory",
-      "Disabled Tractor Trailer"
+      "Disabled Vehicle"
     ]
   },
   {
@@ -490,7 +490,7 @@
   {
     "latitude": 37.155092,
     "longitude": -81.100517,
-    "count": 1,
+    "count": 2,
     "reasons": [
       "Bridge/Tunnel Stoppage"
     ]
@@ -564,11 +564,11 @@
   {
     "latitude": 38.92133,
     "longitude": -78.210247,
-    "count": 9,
+    "count": 10,
     "reasons": [
-      "Disabled Vehicle",
       "Vehicle Crash",
-      "Tractor Trailer Crash"
+      "Tractor Trailer Crash",
+      "Disabled Vehicle"
     ]
   },
   {
@@ -704,7 +704,7 @@
   {
     "latitude": 37.183406,
     "longitude": -80.381657,
-    "count": 4,
+    "count": 5,
     "reasons": [
       "Vehicle Crash",
       "Disabled Vehicle"

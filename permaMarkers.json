@@ -29,24 +29,24 @@
   {
     "latitude": 38.876507,
     "longitude": -77.099033,
-    "count": 45,
+    "count": 46,
     "reasons": [
-      "Disabled Vehicle",
+      "Vehicle Crash",
+      "Multi-Vehicle Crash",
       "Other Traffic",
       "Congestion/Delay",
-      "Vehicle Crash",
-      "Multi-Vehicle Crash"
+      "Disabled Vehicle"
     ]
   },
   {
     "latitude": 36.732508,
     "longitude": -81.965996,
-    "count": 9,
+    "count": 10,
     "reasons": [
       "Vehicle Crash",
       "Disabled Tractor Trailer",
-      "Disabled Vehicle",
-      "Tractor Trailer Crash"
+      "Tractor Trailer Crash",
+      "Disabled Vehicle"
     ]
   },
   {
@@ -142,24 +142,24 @@
   {
     "latitude": 38.035726,
     "longitude": -77.346139,
-    "count": 13,
+    "count": 14,
     "reasons": [
-      "Disabled Vehicle",
+      "Vehicle Crash",
       "Vehicle Fire",
-      "Vehicle Crash"
+      "Disabled Vehicle"
     ]
   },
   {
     "latitude": 38.656701,
     "longitude": -77.417648,
-    "count": 103,
+    "count": 104,
     "reasons": [
-      "Vehicle Crash",
-      "Other Traffic",
-      "Multi-Vehicle Crash",
-      "Tractor Trailer Crash",
       "Advisory",
+      "Vehicle Crash",
+      "Multi-Vehicle Crash",
+      "Other Traffic",
       "Disabled Tractor Trailer",
+      "Tractor Trailer Crash",
       "Disabled Vehicle"
     ]
   },
@@ -494,9 +494,10 @@
   {
     "latitude": 37.155092,
     "longitude": -81.100517,
-    "count": 2,
+    "count": 3,
     "reasons": [
-      "Bridge/Tunnel Stoppage"
+      "Bridge/Tunnel Stoppage",
+      "Disabled Tractor Trailer"
     ]
   },
   {
@@ -631,11 +632,12 @@
   {
     "latitude": 37.752557,
     "longitude": -78.001257,
-    "count": 6,
+    "count": 7,
     "reasons": [
-      "Disabled Vehicle",
+      "Vehicle Crash",
+      "Vehicle Fire",
       "Multi-Vehicle Crash",
-      "Vehicle Crash"
+      "Disabled Vehicle"
     ]
   },
   {
@@ -775,10 +777,10 @@
   {
     "latitude": 37.098784,
     "longitude": -81.563878,
-    "count": 3,
+    "count": 4,
     "reasons": [
-      "Vehicle Crash",
-      "Tractor Trailer Crash"
+      "Tractor Trailer Crash",
+      "Vehicle Crash"
     ]
   },
   {

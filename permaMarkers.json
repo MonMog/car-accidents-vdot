@@ -30,11 +30,11 @@
   {
     "latitude": 38.876507,
     "longitude": -77.099033,
-    "count": 94,
+    "count": 95,
     "reasons": [
       "Other Traffic",
-      "Multi-Vehicle Crash",
       "Vehicle Crash",
+      "Multi-Vehicle Crash",
       "Advisory",
       "Disabled Vehicle",
       "Congestion/Delay"
@@ -66,34 +66,34 @@
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 810,
+    "count": 812,
     "reasons": [
-      "Multi-Vehicle Crash",
-      "Other Traffic",
       "Vehicle Fire",
-      "Advisory",
-      "Congestion/Delay",
-      "Tractor Trailer Crash",
       "Brush Fire",
       "Vehicle Crash",
-      "Disabled Vehicle",
-      "Disabled Tractor Trailer"
+      "Congestion/Delay",
+      "Other Traffic",
+      "Disabled Tractor Trailer",
+      "Tractor Trailer Crash",
+      "Multi-Vehicle Crash",
+      "Advisory",
+      "Disabled Vehicle"
     ]
   },
   {
     "latitude": 36.895829,
     "longitude": -76.251244,
-    "count": 216,
+    "count": 219,
     "reasons": [
-      "Tractor Trailer Crash",
       "Vehicle Crash",
-      "Multi-Vehicle Crash",
-      "Disabled Tractor Trailer",
-      "Other Traffic",
-      "Advisory",
-      "Bridge/Tunnel Stoppage",
       "Congestion/Delay",
+      "Other Traffic",
       "Other Security/Police Activity",
+      "Disabled Tractor Trailer",
+      "Bridge/Tunnel Stoppage",
+      "Tractor Trailer Crash",
+      "Multi-Vehicle Crash",
+      "Advisory",
       "Disabled Vehicle"
     ]
   },
@@ -182,15 +182,15 @@
   {
     "latitude": 38.449364,
     "longitude": -77.473179,
-    "count": 154,
+    "count": 155,
     "reasons": [
-      "Disabled Vehicle",
+      "Other Traffic",
       "Vehicle Crash",
       "Disabled Tractor Trailer",
-      "Multi-Vehicle Crash",
       "Tractor Trailer Crash",
-      "Other Traffic",
-      "Advisory"
+      "Multi-Vehicle Crash",
+      "Advisory",
+      "Disabled Vehicle"
     ]
   },
   {
@@ -273,16 +273,16 @@
   {
     "latitude": 37.137829,
     "longitude": -76.554954,
-    "count": 61,
+    "count": 63,
     "reasons": [
-      "Disabled Tractor Trailer",
       "Vehicle Crash",
-      "Disabled Vehicle",
-      "Multi-Vehicle Crash",
       "Advisory",
-      "Other Security/Police Activity",
       "Congestion/Delay",
-      "Bridge/Tunnel Stoppage"
+      "Other Security/Police Activity",
+      "Disabled Tractor Trailer",
+      "Bridge/Tunnel Stoppage",
+      "Multi-Vehicle Crash",
+      "Disabled Vehicle"
     ]
   },
   {
@@ -299,14 +299,14 @@
   {
     "latitude": 36.674595,
     "longitude": -76.303354,
-    "count": 104,
+    "count": 106,
     "reasons": [
-      "Multi-Vehicle Crash",
       "Vehicle Fire",
       "Vehicle Crash",
-      "Tractor Trailer Crash",
-      "Advisory",
       "Other Traffic",
+      "Tractor Trailer Crash",
+      "Multi-Vehicle Crash",
+      "Advisory",
       "Disabled Vehicle"
     ]
   },
@@ -342,17 +342,17 @@
   {
     "latitude": 37.057972,
     "longitude": -76.368397,
-    "count": 126,
+    "count": 128,
     "reasons": [
-      "Multi-Vehicle Crash",
-      "Disabled Vehicle",
+      "Vehicle Crash",
+      "Advisory",
+      "Congestion/Delay",
       "Other Traffic",
       "Disabled Tractor Trailer",
       "Bridge/Tunnel Stoppage",
-      "Vehicle Crash",
       "Tractor Trailer Crash",
-      "Advisory",
-      "Congestion/Delay"
+      "Multi-Vehicle Crash",
+      "Disabled Vehicle"
     ]
   },
   {
@@ -370,18 +370,18 @@
   {
     "latitude": 36.690587,
     "longitude": -76.616102,
-    "count": 50,
+    "count": 51,
     "reasons": [
-      "Multi-Vehicle Crash",
-      "Bridge/Tunnel Stoppage",
       "Vehicle Fire",
-      "Advisory",
-      "Congestion/Delay",
-      "Tractor Trailer Crash",
       "Vehicle Crash",
-      "Disabled Vehicle",
+      "Congestion/Delay",
+      "Other Security/Police Activity",
       "Disabled Tractor Trailer",
-      "Other Security/Police Activity"
+      "Bridge/Tunnel Stoppage",
+      "Tractor Trailer Crash",
+      "Multi-Vehicle Crash",
+      "Advisory",
+      "Disabled Vehicle"
     ]
   },
   {

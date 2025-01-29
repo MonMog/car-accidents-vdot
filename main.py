@@ -25,7 +25,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 try:
     driver.get("https://511.vdot.virginia.gov/")
 
-    wait = WebDriverWait(driver, 10)
+    wait = WebDriverWait(driver, 15)
     traffic_tables_tab = wait.until(EC.element_to_be_clickable((By.ID, "trafficTables")))
     traffic_tables_tab.click()
     print("clicked")
@@ -42,7 +42,7 @@ try:
     download_button.click()
     print("4clicked")
 
-    time.sleep(3)
+    time.sleep(5)
     print("Slept")
 
     list_of_files = glob.glob(f'{output_directory}/*.csv')

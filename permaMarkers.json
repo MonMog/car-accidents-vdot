@@ -16,16 +16,16 @@
   {
     "latitude": 37.412079,
     "longitude": -77.630101,
-    "count": 180,
+    "count": 181,
     "reasons": [
-      "Advisory",
-      "Disabled Tractor Trailer",
-      "Vehicle Crash",
       "Vehicle Fire",
-      "Tractor Trailer Crash",
       "Other Traffic",
       "Disabled Vehicle",
-      "Multi-Vehicle Crash"
+      "Multi-Vehicle Crash",
+      "Tractor Trailer Crash",
+      "Disabled Tractor Trailer",
+      "Vehicle Crash",
+      "Advisory"
     ]
   },
   {
@@ -67,18 +67,18 @@
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 1123,
+    "count": 1126,
     "reasons": [
-      "Advisory",
-      "Disabled Tractor Trailer",
       "Vehicle Fire",
-      "Vehicle Crash",
-      "Tractor Trailer Crash",
-      "Brush Fire",
       "Other Traffic",
       "Disabled Vehicle",
+      "Multi-Vehicle Crash",
+      "Tractor Trailer Crash",
+      "Disabled Tractor Trailer",
+      "Vehicle Crash",
+      "Advisory",
       "Congestion/Delay",
-      "Multi-Vehicle Crash"
+      "Brush Fire"
     ]
   },
   {
@@ -225,15 +225,15 @@
   {
     "latitude": 37.908916,
     "longitude": -76.671898,
-    "count": 135,
+    "count": 136,
     "reasons": [
-      "Disabled Tractor Trailer",
-      "Vehicle Crash",
+      "Other Traffic",
       "Disabled Vehicle",
+      "Multi-Vehicle Crash",
       "Other Security/Police Activity",
       "Tractor Trailer Crash",
-      "Other Traffic",
-      "Multi-Vehicle Crash"
+      "Disabled Tractor Trailer",
+      "Vehicle Crash"
     ]
   },
   {
@@ -309,15 +309,15 @@
   {
     "latitude": 36.674595,
     "longitude": -76.303354,
-    "count": 135,
+    "count": 136,
     "reasons": [
-      "Advisory",
-      "Vehicle Crash",
-      "Other Traffic",
-      "Disabled Vehicle",
-      "Multi-Vehicle Crash",
       "Vehicle Fire",
-      "Tractor Trailer Crash"
+      "Other Traffic",
+      "Multi-Vehicle Crash",
+      "Disabled Vehicle",
+      "Vehicle Crash",
+      "Tractor Trailer Crash",
+      "Advisory"
     ]
   },
   {

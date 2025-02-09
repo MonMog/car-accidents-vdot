@@ -68,37 +68,37 @@
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 1499,
+    "count": 1503,
     "reasons": [
-      "Vehicle Crash",
       "Disabled Vehicle",
-      "Brush Fire",
-      "Disabled Tractor Trailer",
       "Other Traffic",
+      "Vehicle Crash",
+      "Disabled Tractor Trailer",
       "Advisory",
       "Vehicle Fire",
       "Tractor Trailer Crash",
       "Congestion/Delay",
+      "Brush Fire",
       "Multi-Vehicle Crash"
     ]
   },
   {
     "latitude": 36.895829,
     "longitude": -76.251244,
-    "count": 432,
+    "count": 433,
     "reasons": [
-      "Closed",
-      "Vehicle Crash",
-      "Vehicle Fire",
-      "Tractor Trailer Crash",
-      "Advisory",
-      "Multi-Vehicle Crash",
-      "Congestion/Delay",
-      "Bridge/Tunnel Stoppage",
-      "Disabled Tractor Trailer",
+      "Disabled Vehicle",
       "Other Traffic",
+      "Vehicle Crash",
+      "Closed",
+      "Disabled Tractor Trailer",
+      "Advisory",
+      "Vehicle Fire",
+      "Bridge/Tunnel Stoppage",
+      "Tractor Trailer Crash",
+      "Congestion/Delay",
       "Other Security/Police Activity",
-      "Disabled Vehicle"
+      "Multi-Vehicle Crash"
     ]
   },
   {
@@ -178,12 +178,12 @@
   {
     "latitude": 38.656701,
     "longitude": -77.417648,
-    "count": 490,
+    "count": 491,
     "reasons": [
-      "Vehicle Crash",
       "Disabled Vehicle",
-      "Disabled Tractor Trailer",
       "Other Traffic",
+      "Vehicle Crash",
+      "Disabled Tractor Trailer",
       "Advisory",
       "Vehicle Fire",
       "Tractor Trailer Crash",
@@ -245,17 +245,17 @@
   {
     "latitude": 38.102743,
     "longitude": -78.638705,
-    "count": 71,
+    "count": 72,
     "reasons": [
-      "Vehicle Crash",
-      "Other Security/Police Activity",
       "Disabled Vehicle",
-      "Brush Fire",
-      "Disabled Tractor Trailer",
       "Other Traffic",
+      "Vehicle Crash",
+      "Disabled Tractor Trailer",
+      "Other Security/Police Activity",
       "Vehicle Fire",
       "Tractor Trailer Crash",
       "Congestion/Delay",
+      "Brush Fire",
       "Multi-Vehicle Crash"
     ]
   },
@@ -290,13 +290,14 @@
   {
     "latitude": 37.137829,
     "longitude": -76.554954,
-    "count": 143,
+    "count": 144,
     "reasons": [
       "Disabled Vehicle",
+      "Other Traffic",
       "Vehicle Crash",
-      "Other Security/Police Activity",
       "Disabled Tractor Trailer",
       "Advisory",
+      "Other Security/Police Activity",
       "Bridge/Tunnel Stoppage",
       "Congestion/Delay",
       "Multi-Vehicle Crash"
@@ -363,18 +364,18 @@
   {
     "latitude": 37.057972,
     "longitude": -76.368397,
-    "count": 238,
+    "count": 239,
     "reasons": [
       "Disabled Vehicle",
-      "Vehicle Crash",
-      "Other Security/Police Activity",
-      "Disabled Tractor Trailer",
+      "Tractor Trailer Crash",
       "Other Traffic",
+      "Vehicle Crash",
+      "Closed",
+      "Disabled Tractor Trailer",
+      "Other Security/Police Activity",
       "Advisory",
       "Bridge/Tunnel Stoppage",
       "Vehicle Fire",
-      "Closed",
-      "Tractor Trailer Crash",
       "Congestion/Delay",
       "Multi-Vehicle Crash"
     ]
@@ -518,30 +519,30 @@
   {
     "latitude": 36.802695,
     "longitude": -76.055211,
-    "count": 173,
+    "count": 174,
     "reasons": [
-      "Vehicle Crash",
       "Disabled Vehicle",
-      "Disabled Tractor Trailer",
       "Other Traffic",
+      "Vehicle Crash",
+      "Disabled Tractor Trailer",
+      "Amber Alert",
       "Advisory",
       "Vehicle Fire",
-      "Multi-Vehicle Crash",
-      "Amber Alert"
+      "Multi-Vehicle Crash"
     ]
   },
   {
     "latitude": 36.721982,
     "longitude": -80.733116,
-    "count": 186,
+    "count": 187,
     "reasons": [
       "Disabled Vehicle",
-      "Vehicle Crash",
-      "Disabled Tractor Trailer",
-      "Other Traffic",
-      "Closed",
       "Tractor Trailer Crash",
-      "Advisory"
+      "Other Traffic",
+      "Vehicle Crash",
+      "Closed",
+      "Advisory",
+      "Disabled Tractor Trailer"
     ]
   },
   {

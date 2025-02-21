@@ -1,5 +1,21 @@
 [
   {
+    "latitude": 36.674595,
+    "longitude": -76.303354,
+    "count": 2,
+    "reasons": [
+      "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 36.721982,
+    "longitude": -80.733116,
+    "count": 2,
+    "reasons": [
+      "Advisory"
+    ]
+  },
+  {
     "latitude": 38.656701,
     "longitude": -77.417648,
     "count": 1,
@@ -16,11 +32,19 @@
     ]
   },
   {
-    "latitude": 36.802695,
-    "longitude": -76.055211,
+    "latitude": 36.895829,
+    "longitude": -76.251244,
     "count": 1,
     "reasons": [
-      "Advisory"
+      "Bridge/Tunnel Stoppage"
+    ]
+  },
+  {
+    "latitude": 37.184566,
+    "longitude": -79.516073,
+    "count": 1,
+    "reasons": [
+      "Closed"
     ]
   }
 ]

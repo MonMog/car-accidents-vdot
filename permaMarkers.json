@@ -75,18 +75,18 @@
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 3262,
+    "count": 3264,
     "reasons": [
-      "Vehicle Fire",
-      "Brush Fire",
-      "Other Traffic",
       "Multi-Vehicle Crash",
-      "Disabled Vehicle",
-      "Advisory",
       "Disabled Tractor Trailer",
       "Vehicle Crash",
+      "Advisory",
+      "Vehicle Fire",
+      "Brush Fire",
+      "Tractor Trailer Crash",
       "Congestion/Delay",
-      "Tractor Trailer Crash"
+      "Other Traffic",
+      "Disabled Vehicle"
     ]
   },
   {
@@ -196,18 +196,18 @@
   {
     "latitude": 38.656701,
     "longitude": -77.417648,
-    "count": 1066,
+    "count": 1067,
     "reasons": [
-      "Other Security/Police Activity",
-      "Vehicle Fire",
-      "Other Traffic",
       "Multi-Vehicle Crash",
-      "Disabled Vehicle",
-      "Advisory",
       "Disabled Tractor Trailer",
       "Vehicle Crash",
+      "Advisory",
+      "Vehicle Fire",
+      "Other Security/Police Activity",
+      "Tractor Trailer Crash",
       "Congestion/Delay",
-      "Tractor Trailer Crash"
+      "Other Traffic",
+      "Disabled Vehicle"
     ]
   },
   {
@@ -320,20 +320,20 @@
   {
     "latitude": 37.137829,
     "longitude": -76.554954,
-    "count": 411,
+    "count": 412,
     "reasons": [
-      "Other Security/Police Activity",
-      "Vehicle Fire",
-      "Brush Fire",
-      "Other Traffic",
       "Multi-Vehicle Crash",
-      "Disabled Vehicle",
-      "Advisory",
       "Disabled Tractor Trailer",
       "Vehicle Crash",
-      "Congestion/Delay",
+      "Advisory",
+      "Vehicle Fire",
+      "Other Security/Police Activity",
+      "Brush Fire",
+      "Bridge/Tunnel Stoppage",
       "Tractor Trailer Crash",
-      "Bridge/Tunnel Stoppage"
+      "Congestion/Delay",
+      "Other Traffic",
+      "Disabled Vehicle"
     ]
   },
   {
@@ -1360,10 +1360,10 @@
   {
     "latitude": 36.934148,
     "longitude": -76.703844,
-    "count": 4,
+    "count": 5,
     "reasons": [
-      "Brush Fire",
-      "Vehicle Crash"
+      "Vehicle Crash",
+      "Brush Fire"
     ]
   }
 ]

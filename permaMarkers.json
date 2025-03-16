@@ -75,37 +75,37 @@
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 3326,
+    "count": 3328,
     "reasons": [
-      "Disabled Vehicle",
       "Vehicle Crash",
-      "Multi-Vehicle Crash",
       "Vehicle Fire",
-      "Disabled Tractor Trailer",
-      "Advisory",
-      "Tractor Trailer Crash",
+      "Disabled Vehicle",
       "Congestion/Delay",
+      "Tractor Trailer Crash",
+      "Disabled Tractor Trailer",
+      "Brush Fire",
       "Other Traffic",
-      "Brush Fire"
+      "Advisory",
+      "Multi-Vehicle Crash"
     ]
   },
   {
     "latitude": 36.895829,
     "longitude": -76.251244,
-    "count": 1119,
+    "count": 1120,
     "reasons": [
-      "Congestion/Delay",
-      "Advisory",
-      "Disabled Vehicle",
-      "Other Security/Police Activity",
-      "Closed",
       "Vehicle Crash",
-      "Disabled Tractor Trailer",
-      "Multi-Vehicle Crash",
-      "Other Traffic",
       "Bridge/Tunnel Stoppage",
+      "Other Security/Police Activity",
+      "Vehicle Fire",
+      "Disabled Vehicle",
+      "Congestion/Delay",
       "Tractor Trailer Crash",
-      "Vehicle Fire"
+      "Disabled Tractor Trailer",
+      "Other Traffic",
+      "Advisory",
+      "Multi-Vehicle Crash",
+      "Closed"
     ]
   },
   {
@@ -274,34 +274,34 @@
   {
     "latitude": 38.102743,
     "longitude": -78.638705,
-    "count": 185,
+    "count": 186,
     "reasons": [
-      "Congestion/Delay",
-      "Disabled Vehicle",
-      "Vehicle Fire",
-      "Disabled Tractor Trailer",
       "Vehicle Crash",
-      "Other Traffic",
-      "Brush Fire",
-      "Tractor Trailer Crash",
+      "Vehicle Fire",
       "Other Security/Police Activity",
+      "Disabled Vehicle",
+      "Congestion/Delay",
+      "Tractor Trailer Crash",
+      "Disabled Tractor Trailer",
+      "Brush Fire",
+      "Other Traffic",
       "Multi-Vehicle Crash"
     ]
   },
   {
     "latitude": 37.468543,
     "longitude": -77.31012,
-    "count": 632,
+    "count": 633,
     "reasons": [
-      "Other Security/Police Activity",
-      "Disabled Tractor Trailer",
-      "Tractor Trailer Crash",
-      "Disabled Vehicle",
-      "Multi-Vehicle Crash",
       "Vehicle Crash",
-      "Other Traffic",
+      "Other Security/Police Activity",
       "Vehicle Fire",
-      "Advisory"
+      "Disabled Vehicle",
+      "Tractor Trailer Crash",
+      "Disabled Tractor Trailer",
+      "Other Traffic",
+      "Advisory",
+      "Multi-Vehicle Crash"
     ]
   },
   {
@@ -595,35 +595,35 @@
   {
     "latitude": 36.721982,
     "longitude": -80.733116,
-    "count": 613,
+    "count": 614,
     "reasons": [
-      "Disabled Vehicle",
       "Vehicle Crash",
-      "Multi-Vehicle Crash",
       "Vehicle Fire",
-      "Disabled Tractor Trailer",
-      "Advisory",
-      "Closed",
-      "Tractor Trailer Crash",
       "Other Security/Police Activity",
-      "Other Traffic"
+      "Disabled Vehicle",
+      "Tractor Trailer Crash",
+      "Disabled Tractor Trailer",
+      "Other Traffic",
+      "Advisory",
+      "Multi-Vehicle Crash",
+      "Closed"
     ]
   },
   {
     "latitude": 37.212162,
     "longitude": -80.124835,
-    "count": 190,
+    "count": 191,
     "reasons": [
-      "Other Traffic",
-      "Brush Fire",
-      "Closed",
-      "Vehicle Fire",
-      "Tractor Trailer Crash",
-      "Multi-Vehicle Crash",
       "Vehicle Crash",
-      "Disabled Tractor Trailer",
+      "Vehicle Fire",
       "Disabled Vehicle",
-      "Congestion/Delay"
+      "Congestion/Delay",
+      "Tractor Trailer Crash",
+      "Disabled Tractor Trailer",
+      "Brush Fire",
+      "Other Traffic",
+      "Multi-Vehicle Crash",
+      "Closed"
     ]
   },
   {
@@ -981,12 +981,12 @@
   {
     "latitude": 37.975181,
     "longitude": -77.906624,
-    "count": 51,
+    "count": 52,
     "reasons": [
-      "Disabled Vehicle",
-      "Other Security/Police Activity",
-      "Other Traffic",
       "Vehicle Crash",
+      "Other Security/Police Activity",
+      "Disabled Vehicle",
+      "Other Traffic",
       "Disabled Tractor Trailer",
       "Brush Fire"
     ]

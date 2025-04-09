@@ -1,11 +1,19 @@
 [
   {
-    "latitude": 36.895829,
-    "longitude": -76.251244,
-    "count": 6,
+    "latitude": 37.837635,
+    "longitude": -77.625236,
+    "count": 1,
     "reasons": [
-      "Disabled Vehicle",
-      "Bridge/Tunnel Stoppage"
+      "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 37.513721,
+    "longitude": -76.993758,
+    "count": 2,
+    "reasons": [
+      "Vehicle Crash",
+      "Disabled Tractor Trailer"
     ]
   },
   {
@@ -13,8 +21,9 @@
     "longitude": -77.221351,
     "count": 4,
     "reasons": [
-      "Disabled Vehicle",
-      "Disabled Tractor Trailer"
+      "Other Traffic",
+      "Disabled Tractor Trailer",
+      "Disabled Vehicle"
     ]
   },
   {
@@ -26,21 +35,11 @@
     ]
   },
   {
-    "latitude": 37.072236,
-    "longitude": -77.627697,
-    "count": 2,
+    "latitude": 39.105767,
+    "longitude": -77.665006,
+    "count": 1,
     "reasons": [
-      "Advisory",
-      "Vehicle Crash"
-    ]
-  },
-  {
-    "latitude": 36.802695,
-    "longitude": -76.055211,
-    "count": 2,
-    "reasons": [
-      "Disabled Vehicle",
-      "Other Traffic"
+      "Disabled Vehicle"
     ]
   },
   {
@@ -48,49 +47,24 @@
     "longitude": -77.630101,
     "count": 1,
     "reasons": [
-      "Disabled Tractor Trailer"
+      "Disabled Vehicle"
     ]
   },
   {
-    "latitude": 37.057972,
-    "longitude": -76.368397,
-    "count": 3,
-    "reasons": [
-      "Disabled Vehicle",
-      "Bridge/Tunnel Stoppage",
-      "Congestion/Delay"
-    ]
-  },
-  {
-    "latitude": 37.352527,
-    "longitude": -77.995746,
-    "count": 1,
-    "reasons": [
-      "Closed"
-    ]
-  },
-  {
-    "latitude": 36.690587,
-    "longitude": -76.616102,
-    "count": 1,
+    "latitude": 36.895829,
+    "longitude": -76.251244,
+    "count": 2,
     "reasons": [
       "Bridge/Tunnel Stoppage"
     ]
   },
   {
-    "latitude": 37.915446,
-    "longitude": -79.442843,
-    "count": 1,
+    "latitude": 36.674595,
+    "longitude": -76.303354,
+    "count": 2,
     "reasons": [
+      "Other Traffic",
       "Disabled Vehicle"
-    ]
-  },
-  {
-    "latitude": 36.721982,
-    "longitude": -80.733116,
-    "count": 1,
-    "reasons": [
-      "Vehicle Crash"
     ]
   },
   {
@@ -102,11 +76,11 @@
     ]
   },
   {
-    "latitude": 36.822489,
-    "longitude": -76.331835,
+    "latitude": 36.690587,
+    "longitude": -76.616102,
     "count": 1,
     "reasons": [
-      "Disabled Vehicle"
+      "Bridge/Tunnel Stoppage"
     ]
   },
   {
@@ -114,7 +88,7 @@
     "longitude": -76.554954,
     "count": 1,
     "reasons": [
-      "Other Traffic"
+      "Bridge/Tunnel Stoppage"
     ]
   }
 ]

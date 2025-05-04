@@ -1,26 +1,19 @@
 [
   {
-    "latitude": 38.765686,
-    "longitude": -77.221351,
+    "latitude": 36.895829,
+    "longitude": -76.251244,
     "count": 2,
     "reasons": [
+      "Vehicle Crash",
       "Disabled Vehicle"
     ]
   },
   {
-    "latitude": 36.721982,
-    "longitude": -80.733116,
+    "latitude": 36.674595,
+    "longitude": -76.303354,
     "count": 2,
     "reasons": [
-      "Advisory"
-    ]
-  },
-  {
-    "latitude": 38.185543,
-    "longitude": -79.264732,
-    "count": 2,
-    "reasons": [
-      "Advisory"
+      "Vehicle Crash"
     ]
   },
   {
@@ -32,19 +25,60 @@
     ]
   },
   {
-    "latitude": 37.137829,
-    "longitude": -76.554954,
-    "count": 1,
+    "latitude": 37.057972,
+    "longitude": -76.368397,
+    "count": 2,
     "reasons": [
-      "Vehicle Fire"
+      "Disabled Vehicle",
+      "Bridge/Tunnel Stoppage"
     ]
   },
   {
-    "latitude": 38.656701,
-    "longitude": -77.417648,
+    "latitude": 36.911876,
+    "longitude": -81.078712,
     "count": 1,
     "reasons": [
-      "Disabled Vehicle"
+      "Tractor Trailer Crash"
+    ]
+  },
+  {
+    "latitude": 38.836826,
+    "longitude": -77.856034,
+    "count": 1,
+    "reasons": [
+      "Vehicle Crash"
+    ]
+  },
+  {
+    "latitude": 38.185543,
+    "longitude": -79.264732,
+    "count": 2,
+    "reasons": [
+      "Advisory"
+    ]
+  },
+  {
+    "latitude": 39.105767,
+    "longitude": -77.665006,
+    "count": 1,
+    "reasons": [
+      "Vehicle Crash"
+    ]
+  },
+  {
+    "latitude": 36.690587,
+    "longitude": -76.616102,
+    "count": 2,
+    "reasons": [
+      "Vehicle Crash"
+    ]
+  },
+  {
+    "latitude": 36.721982,
+    "longitude": -80.733116,
+    "count": 2,
+    "reasons": [
+      "Advisory"
     ]
   },
   {
@@ -53,6 +87,22 @@
     "count": 1,
     "reasons": [
       "Vehicle Crash"
+    ]
+  },
+  {
+    "latitude": 37.184566,
+    "longitude": -79.516073,
+    "count": 1,
+    "reasons": [
+      "Vehicle Crash"
+    ]
+  },
+  {
+    "latitude": 38.656701,
+    "longitude": -77.417648,
+    "count": 1,
+    "reasons": [
+      "Disabled Vehicle"
     ]
   }
 ]

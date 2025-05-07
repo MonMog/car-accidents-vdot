@@ -104,20 +104,20 @@
   {
     "latitude": 36.895829,
     "longitude": -76.251244,
-    "count": 2187,
+    "count": 2188,
     "reasons": [
-      "Closed",
-      "Disabled Vehicle",
-      "Bridge/Tunnel Stoppage",
-      "Vehicle Fire",
-      "Congestion/Delay",
-      "Vehicle Crash",
-      "Other Security/Police Activity",
-      "Tractor Trailer Crash",
       "Multi-Vehicle Crash",
+      "Closed",
       "Other Traffic",
+      "Vehicle Fire",
+      "Tractor Trailer Crash",
+      "Congestion/Delay",
       "Advisory",
-      "Disabled Tractor Trailer"
+      "Disabled Tractor Trailer",
+      "Disabled Vehicle",
+      "Other Security/Police Activity",
+      "Bridge/Tunnel Stoppage",
+      "Vehicle Crash"
     ]
   },
   {
@@ -916,18 +916,18 @@
   {
     "latitude": 37.752557,
     "longitude": -78.001257,
-    "count": 187,
+    "count": 188,
     "reasons": [
-      "Disabled Vehicle",
-      "Closed",
-      "Brush Fire",
-      "Vehicle Fire",
-      "Vehicle Crash",
-      "Tractor Trailer Crash",
       "Multi-Vehicle Crash",
+      "Closed",
       "Other Traffic",
+      "Vehicle Fire",
+      "Brush Fire",
+      "Tractor Trailer Crash",
       "Advisory",
-      "Disabled Tractor Trailer"
+      "Disabled Tractor Trailer",
+      "Disabled Vehicle",
+      "Vehicle Crash"
     ]
   },
   {
@@ -945,14 +945,14 @@
   {
     "latitude": 37.738019,
     "longitude": -80.119516,
-    "count": 54,
+    "count": 55,
     "reasons": [
-      "Vehicle Fire",
+      "Disabled Tractor Trailer",
       "Disabled Vehicle",
-      "Tractor Trailer Crash",
-      "Vehicle Crash",
       "Rockslide",
-      "Disabled Tractor Trailer"
+      "Vehicle Fire",
+      "Vehicle Crash",
+      "Tractor Trailer Crash"
     ]
   },
   {

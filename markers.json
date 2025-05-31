@@ -2,62 +2,18 @@
   {
     "latitude": 37.137829,
     "longitude": -76.554954,
-    "count": 2,
-    "reasons": [
-      "Congestion/Delay",
-      "Disabled Vehicle"
-    ]
-  },
-  {
-    "latitude": 36.895829,
-    "longitude": -76.251244,
-    "count": 2,
-    "reasons": [
-      "Bridge/Tunnel Stoppage",
-      "Vehicle Crash"
-    ]
-  },
-  {
-    "latitude": 37.264874,
-    "longitude": -77.397759,
     "count": 1,
     "reasons": [
-      "Disabled Vehicle"
+      "Congestion/Delay"
     ]
   },
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 6,
+    "count": 4,
     "reasons": [
-      "Congestion/Delay",
       "Disabled Vehicle",
-      "Multi-Vehicle Crash"
-    ]
-  },
-  {
-    "latitude": 38.102743,
-    "longitude": -78.638705,
-    "count": 1,
-    "reasons": [
-      "Disabled Vehicle"
-    ]
-  },
-  {
-    "latitude": 37.057972,
-    "longitude": -76.368397,
-    "count": 2,
-    "reasons": [
-      "Congestion/Delay",
-      "Vehicle Crash"
-    ]
-  },
-  {
-    "latitude": 38.836826,
-    "longitude": -77.856034,
-    "count": 1,
-    "reasons": [
-      "Vehicle Crash"
+      "Congestion/Delay"
     ]
   },
   {
@@ -69,11 +25,11 @@
     ]
   },
   {
-    "latitude": 36.911876,
-    "longitude": -81.078712,
-    "count": 1,
+    "latitude": 36.895829,
+    "longitude": -76.251244,
+    "count": 2,
     "reasons": [
-      "Disabled Tractor Trailer"
+      "Vehicle Crash"
     ]
   },
   {
@@ -85,19 +41,27 @@
     ]
   },
   {
-    "latitude": 36.721982,
-    "longitude": -80.733116,
-    "count": 2,
-    "reasons": [
-      "Advisory"
-    ]
-  },
-  {
-    "latitude": 37.412079,
-    "longitude": -77.630101,
+    "latitude": 37.837578,
+    "longitude": -78.27513,
     "count": 1,
     "reasons": [
       "Vehicle Crash"
+    ]
+  },
+  {
+    "latitude": 37.184566,
+    "longitude": -79.516073,
+    "count": 1,
+    "reasons": [
+      "Vehicle Crash"
+    ]
+  },
+  {
+    "latitude": 37.057972,
+    "longitude": -76.368397,
+    "count": 1,
+    "reasons": [
+      "Congestion/Delay"
     ]
   }
 ]

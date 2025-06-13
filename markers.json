@@ -1,28 +1,28 @@
 [
   {
-    "latitude": 37.909208,
-    "longitude": -76.949216,
-    "count": 1,
+    "latitude": 38.765686,
+    "longitude": -77.221351,
+    "count": 6,
     "reasons": [
-      "Vehicle Crash"
+      "Multi-Vehicle Crash",
+      "Disabled Vehicle",
+      "Other Traffic"
     ]
   },
   {
     "latitude": 36.895829,
     "longitude": -76.251244,
-    "count": 3,
+    "count": 2,
     "reasons": [
-      "Congestion/Delay",
-      "Multi-Vehicle Crash",
-      "Disabled Vehicle"
+      "Disabled Vehicle",
+      "Congestion/Delay"
     ]
   },
   {
-    "latitude": 38.765686,
-    "longitude": -77.221351,
-    "count": 4,
+    "latitude": 36.721982,
+    "longitude": -80.733116,
+    "count": 1,
     "reasons": [
-      "Other Traffic",
       "Disabled Vehicle"
     ]
   },
@@ -32,23 +32,23 @@
     "count": 2,
     "reasons": [
       "Vehicle Crash",
-      "Multi-Vehicle Crash"
+      "Other Traffic"
     ]
   },
   {
-    "latitude": 36.690587,
-    "longitude": -76.616102,
-    "count": 1,
-    "reasons": [
-      "Bridge/Tunnel Stoppage"
-    ]
-  },
-  {
-    "latitude": 37.908916,
-    "longitude": -76.671898,
+    "latitude": 38.185543,
+    "longitude": -79.264732,
     "count": 1,
     "reasons": [
       "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 37.575135,
+    "longitude": -79.812531,
+    "count": 1,
+    "reasons": [
+      "Vehicle Crash"
     ]
   },
   {

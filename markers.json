@@ -2,7 +2,15 @@
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 2,
+    "count": 3,
+    "reasons": [
+      "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 37.908916,
+    "longitude": -76.671898,
+    "count": 1,
     "reasons": [
       "Disabled Vehicle"
     ]
@@ -13,22 +21,6 @@
     "count": 1,
     "reasons": [
       "Disabled Vehicle"
-    ]
-  },
-  {
-    "latitude": 36.895829,
-    "longitude": -76.251244,
-    "count": 1,
-    "reasons": [
-      "Vehicle Crash"
-    ]
-  },
-  {
-    "latitude": 38.272107,
-    "longitude": -77.142027,
-    "count": 1,
-    "reasons": [
-      "Tractor Trailer Crash"
     ]
   }
 ]

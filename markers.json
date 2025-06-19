@@ -1,10 +1,19 @@
 [
   {
-    "latitude": 37.909208,
-    "longitude": -76.949216,
+    "latitude": 38.765686,
+    "longitude": -77.221351,
+    "count": 2,
+    "reasons": [
+      "Other Traffic",
+      "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 39.105767,
+    "longitude": -77.665006,
     "count": 1,
     "reasons": [
-      "Vehicle Crash"
+      "Disabled Vehicle"
     ]
   },
   {
@@ -13,15 +22,6 @@
     "count": 1,
     "reasons": [
       "Vehicle Fire"
-    ]
-  },
-  {
-    "latitude": 38.765686,
-    "longitude": -77.221351,
-    "count": 2,
-    "reasons": [
-      "Other Traffic",
-      "Disabled Vehicle"
     ]
   },
   {

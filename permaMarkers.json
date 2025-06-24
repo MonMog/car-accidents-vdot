@@ -2,19 +2,19 @@
   {
     "latitude": 38.179497,
     "longitude": -77.661503,
-    "count": 1243,
+    "count": 1244,
     "reasons": [
       "Disabled Tractor Trailer",
-      "Advisory",
+      "Closed",
+      "Vehicle Fire",
+      "Vehicle Crash",
       "Tractor Trailer Crash",
+      "Other Traffic",
       "Brush Fire",
       "Other Security/Police Activity",
-      "Vehicle Crash",
       "Multi-Vehicle Crash",
-      "Vehicle Fire",
-      "Closed",
-      "Other Traffic",
-      "Disabled Vehicle"
+      "Disabled Vehicle",
+      "Advisory"
     ]
   },
   {
@@ -169,16 +169,16 @@
   {
     "latitude": 37.575135,
     "longitude": -79.812531,
-    "count": 269,
+    "count": 270,
     "reasons": [
       "Disabled Tractor Trailer",
-      "Congestion/Delay",
-      "Tractor Trailer Crash",
-      "Vehicle Crash",
-      "Multi-Vehicle Crash",
-      "Vehicle Fire",
       "Closed",
+      "Vehicle Fire",
+      "Vehicle Crash",
+      "Tractor Trailer Crash",
       "Other Traffic",
+      "Congestion/Delay",
+      "Multi-Vehicle Crash",
       "Disabled Vehicle"
     ]
   },
@@ -614,15 +614,15 @@
   {
     "latitude": 36.85046,
     "longitude": -81.532687,
-    "count": 118,
+    "count": 119,
     "reasons": [
       "Closed",
-      "Disabled Vehicle",
-      "Multi-Vehicle Crash",
+      "Disabled Tractor Trailer",
       "Vehicle Fire",
-      "Tractor Trailer Crash",
       "Vehicle Crash",
-      "Disabled Tractor Trailer"
+      "Disabled Vehicle",
+      "Tractor Trailer Crash",
+      "Multi-Vehicle Crash"
     ]
   },
   {
@@ -1216,17 +1216,17 @@
   {
     "latitude": 36.92508,
     "longitude": -77.261905,
-    "count": 151,
+    "count": 152,
     "reasons": [
+      "Closed",
+      "Vehicle Fire",
+      "Vehicle Crash",
+      "Tractor Trailer Crash",
+      "Other Traffic",
+      "Other Security/Police Activity",
       "Disabled Vehicle",
       "Advisory",
-      "Tractor Trailer Crash",
-      "Wildfire",
-      "Vehicle Crash",
-      "Vehicle Fire",
-      "Closed",
-      "Other Traffic",
-      "Other Security/Police Activity"
+      "Wildfire"
     ]
   },
   {

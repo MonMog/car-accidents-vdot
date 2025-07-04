@@ -2,19 +2,19 @@
   {
     "latitude": 38.179497,
     "longitude": -77.661503,
-    "count": 1342,
+    "count": 1343,
     "reasons": [
+      "Vehicle Crash",
       "Disabled Vehicle",
       "Multi-Vehicle Crash",
-      "Vehicle Crash",
-      "Brush Fire",
-      "Closed",
-      "Other Security/Police Activity",
-      "Tractor Trailer Crash",
       "Other Traffic",
+      "Tractor Trailer Crash",
+      "Vehicle Fire",
       "Disabled Tractor Trailer",
       "Advisory",
-      "Vehicle Fire"
+      "Closed",
+      "Other Security/Police Activity",
+      "Brush Fire"
     ]
   },
   {
@@ -87,41 +87,41 @@
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 9862,
+    "count": 9864,
     "reasons": [
-      "Disabled Vehicle",
-      "Numerous Crash",
       "Congestion/Delay",
-      "Multi-Vehicle Crash",
       "Vehicle Crash",
-      "Brush Fire",
-      "Other Security/Police Activity",
-      "Tractor Trailer Crash",
+      "Disabled Vehicle",
+      "Multi-Vehicle Crash",
       "Other Traffic",
+      "Tractor Trailer Crash",
+      "Vehicle Fire",
       "Disabled Tractor Trailer",
       "Advisory",
-      "Vehicle Fire"
+      "Numerous Crash",
+      "Other Security/Police Activity",
+      "Brush Fire"
     ]
   },
   {
     "latitude": 36.895829,
     "longitude": -76.251244,
-    "count": 3409,
+    "count": 3410,
     "reasons": [
-      "Disabled Vehicle",
-      "Numerous Crash",
       "Congestion/Delay",
-      "Multi-Vehicle Crash",
       "Vehicle Crash",
-      "Closed",
-      "Other Security/Police Activity",
-      "Tractor Trailer Crash",
-      "Other Traffic",
+      "Disabled Vehicle",
+      "Multi-Vehicle Crash",
       "{LO} Local Other",
+      "Other Traffic",
+      "Tractor Trailer Crash",
+      "Bridge/Tunnel Stoppage",
+      "Vehicle Fire",
       "Disabled Tractor Trailer",
       "Advisory",
-      "Vehicle Fire",
-      "Bridge/Tunnel Stoppage"
+      "Closed",
+      "Numerous Crash",
+      "Other Security/Police Activity"
     ]
   },
   {
@@ -779,17 +779,17 @@
   {
     "latitude": 38.836826,
     "longitude": -77.856034,
-    "count": 341,
+    "count": 342,
     "reasons": [
-      "Disabled Vehicle",
       "Congestion/Delay",
-      "Multi-Vehicle Crash",
       "Vehicle Crash",
-      "Other Security/Police Activity",
+      "Disabled Vehicle",
+      "Multi-Vehicle Crash",
       "Other Traffic",
       "Tractor Trailer Crash",
+      "Vehicle Fire",
       "Disabled Tractor Trailer",
-      "Vehicle Fire"
+      "Other Security/Police Activity"
     ]
   },
   {
@@ -974,14 +974,14 @@
   {
     "latitude": 38.82168,
     "longitude": -77.086715,
-    "count": 198,
+    "count": 199,
     "reasons": [
       "Disabled Tractor Trailer",
-      "Other Traffic",
-      "Multi-Vehicle Crash",
+      "Advisory",
       "Vehicle Crash",
       "Disabled Vehicle",
-      "Advisory"
+      "Multi-Vehicle Crash",
+      "Other Traffic"
     ]
   },
   {

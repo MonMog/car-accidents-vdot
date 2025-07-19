@@ -1,41 +1,33 @@
 [
   {
-    "latitude": 38.102743,
-    "longitude": -78.638705,
+    "latitude": 37.072236,
+    "longitude": -77.627697,
     "count": 1,
     "reasons": [
-      "Disabled Vehicle"
+      "Closed"
     ]
   },
   {
-    "latitude": 36.802695,
-    "longitude": -76.055211,
+    "latitude": 36.706591,
+    "longitude": -77.108212,
     "count": 1,
     "reasons": [
-      "Disabled Vehicle"
+      "Advisory"
     ]
   },
   {
-    "latitude": 37.137829,
-    "longitude": -76.554954,
-    "count": 1,
+    "latitude": 37.412079,
+    "longitude": -77.630101,
+    "count": 4,
     "reasons": [
-      "Other Traffic"
+      "Closed",
+      "Advisory"
     ]
   },
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 4,
-    "reasons": [
-      "Other Traffic",
-      "Disabled Vehicle"
-    ]
-  },
-  {
-    "latitude": 36.623232,
-    "longitude": -77.616336,
-    "count": 1,
+    "count": 2,
     "reasons": [
       "Disabled Vehicle"
     ]
@@ -43,6 +35,30 @@
   {
     "latitude": 37.134253,
     "longitude": -78.051149,
+    "count": 2,
+    "reasons": [
+      "Closed"
+    ]
+  },
+  {
+    "latitude": 36.963934,
+    "longitude": -78.264171,
+    "count": 1,
+    "reasons": [
+      "Closed"
+    ]
+  },
+  {
+    "latitude": 38.449364,
+    "longitude": -77.473179,
+    "count": 2,
+    "reasons": [
+      "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 37.908916,
+    "longitude": -76.671898,
     "count": 1,
     "reasons": [
       "Closed"
@@ -57,8 +73,8 @@
     ]
   },
   {
-    "latitude": 37.412079,
-    "longitude": -77.630101,
+    "latitude": 38.656701,
+    "longitude": -77.417648,
     "count": 1,
     "reasons": [
       "Disabled Vehicle"
@@ -73,19 +89,19 @@
     ]
   },
   {
-    "latitude": 37.212162,
-    "longitude": -80.124835,
+    "latitude": 36.802695,
+    "longitude": -76.055211,
     "count": 1,
     "reasons": [
       "Disabled Vehicle"
     ]
   },
   {
-    "latitude": 38.179497,
-    "longitude": -77.661503,
+    "latitude": 37.212162,
+    "longitude": -80.124835,
     "count": 1,
     "reasons": [
-      "Advisory"
+      "Disabled Vehicle"
     ]
   }
 ]

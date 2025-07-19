@@ -1,35 +1,46 @@
 [
   {
+    "latitude": 37.057972,
+    "longitude": -76.368397,
+    "count": 3,
+    "reasons": [
+      "Congestion/Delay",
+      "Bridge/Tunnel Stoppage",
+      "Disabled Vehicle"
+    ]
+  },
+  {
     "latitude": 36.895829,
     "longitude": -76.251244,
-    "count": 2,
+    "count": 3,
     "reasons": [
       "Congestion/Delay",
       "Disabled Vehicle"
     ]
   },
   {
-    "latitude": 37.264874,
-    "longitude": -77.397759,
-    "count": 1,
-    "reasons": [
-      "Tractor Trailer Crash"
-    ]
-  },
-  {
-    "latitude": 39.105767,
-    "longitude": -77.665006,
+    "latitude": 37.072236,
+    "longitude": -77.627697,
     "count": 1,
     "reasons": [
       "Vehicle Crash"
     ]
   },
   {
-    "latitude": 37.184566,
-    "longitude": -79.516073,
+    "latitude": 38.765686,
+    "longitude": -77.221351,
+    "count": 4,
+    "reasons": [
+      "Vehicle Crash",
+      "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 36.674595,
+    "longitude": -76.303354,
     "count": 1,
     "reasons": [
-      "Vehicle Crash"
+      "Disabled Vehicle"
     ]
   },
   {
@@ -49,24 +60,6 @@
     ]
   },
   {
-    "latitude": 38.765686,
-    "longitude": -77.221351,
-    "count": 3,
-    "reasons": [
-      "Other Traffic",
-      "Multi-Vehicle Crash",
-      "Disabled Tractor Trailer"
-    ]
-  },
-  {
-    "latitude": 36.623232,
-    "longitude": -77.616336,
-    "count": 1,
-    "reasons": [
-      "Vehicle Crash"
-    ]
-  },
-  {
     "latitude": 36.690587,
     "longitude": -76.616102,
     "count": 1,
@@ -80,6 +73,30 @@
     "count": 1,
     "reasons": [
       "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 38.179497,
+    "longitude": -77.661503,
+    "count": 1,
+    "reasons": [
+      "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 37.137829,
+    "longitude": -76.554954,
+    "count": 1,
+    "reasons": [
+      "Congestion/Delay"
+    ]
+  },
+  {
+    "latitude": 37.212162,
+    "longitude": -80.124835,
+    "count": 1,
+    "reasons": [
+      "Vehicle Crash"
     ]
   }
 ]

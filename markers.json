@@ -1,10 +1,10 @@
 [
   {
-    "latitude": 38.765686,
-    "longitude": -77.221351,
+    "latitude": 36.768592,
+    "longitude": -77.845384,
     "count": 1,
     "reasons": [
-      "Vehicle Crash"
+      "Advisory"
     ]
   },
   {
@@ -21,6 +21,14 @@
     "count": 1,
     "reasons": [
       "Other Security/Police Activity"
+    ]
+  },
+  {
+    "latitude": 38.765686,
+    "longitude": -77.221351,
+    "count": 1,
+    "reasons": [
+      "Disabled Vehicle"
     ]
   },
   {
@@ -45,14 +53,6 @@
     "count": 1,
     "reasons": [
       "Vehicle Crash"
-    ]
-  },
-  {
-    "latitude": 37.752557,
-    "longitude": -78.001257,
-    "count": 1,
-    "reasons": [
-      "Closed"
     ]
   }
 ]

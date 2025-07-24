@@ -88,42 +88,42 @@
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 11002,
+    "count": 11003,
     "reasons": [
-      "Advisory",
-      "Other Security/Police Activity",
-      "Disabled Vehicle",
-      "Closed",
-      "Brush Fire",
-      "Vehicle Crash",
-      "Disabled Tractor Trailer",
-      "Vehicle Fire",
-      "Multi-Vehicle Crash",
-      "Tractor Trailer Crash",
       "Congestion/Delay",
+      "Numerous Crash",
       "Other Traffic",
-      "Numerous Crash"
+      "Vehicle Crash",
+      "Multi-Vehicle Crash",
+      "Brush Fire",
+      "Tractor Trailer Crash",
+      "Vehicle Fire",
+      "Disabled Tractor Trailer",
+      "Advisory",
+      "Closed",
+      "Disabled Vehicle",
+      "Other Security/Police Activity"
     ]
   },
   {
     "latitude": 36.895829,
     "longitude": -76.251244,
-    "count": 3816,
+    "count": 3817,
     "reasons": [
-      "{LO} Local Other",
-      "Other Security/Police Activity",
-      "Tractor Trailer Crash",
-      "Vehicle Crash",
-      "Other Traffic",
-      "Closed",
-      "Disabled Tractor Trailer",
-      "Numerous Crash",
-      "Multi-Vehicle Crash",
-      "Bridge/Tunnel Stoppage",
       "Congestion/Delay",
-      "Advisory",
+      "Numerous Crash",
+      "Other Traffic",
+      "Vehicle Crash",
+      "Bridge/Tunnel Stoppage",
+      "Multi-Vehicle Crash",
+      "Tractor Trailer Crash",
       "Vehicle Fire",
-      "Disabled Vehicle"
+      "{LO} Local Other",
+      "Disabled Tractor Trailer",
+      "Advisory",
+      "Closed",
+      "Disabled Vehicle",
+      "Other Security/Police Activity"
     ]
   },
   {
@@ -1180,17 +1180,17 @@
   {
     "latitude": 37.364918,
     "longitude": -77.044947,
-    "count": 97,
+    "count": 98,
     "reasons": [
-      "Disabled Vehicle",
-      "Closed",
-      "Multi-Vehicle Crash",
-      "Tractor Trailer Crash",
-      "High Yield Explosive (Bomb)",
       "Other Traffic",
       "Vehicle Crash",
+      "Multi-Vehicle Crash",
+      "Tractor Trailer Crash",
+      "Vehicle Fire",
       "Advisory",
-      "Vehicle Fire"
+      "Closed",
+      "High Yield Explosive (Bomb)",
+      "Disabled Vehicle"
     ]
   },
   {
@@ -1378,13 +1378,14 @@
   {
     "latitude": 37.766545,
     "longitude": -76.471166,
-    "count": 82,
+    "count": 83,
     "reasons": [
-      "Multi-Vehicle Crash",
-      "Advisory",
+      "Closed",
       "Vehicle Crash",
-      "Disabled Vehicle",
-      "Brush Fire"
+      "Advisory",
+      "Multi-Vehicle Crash",
+      "Brush Fire",
+      "Disabled Vehicle"
     ]
   },
   {

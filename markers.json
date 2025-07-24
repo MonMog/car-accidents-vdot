@@ -1,15 +1,7 @@
 [
   {
-    "latitude": 37.364918,
-    "longitude": -77.044947,
-    "count": 1,
-    "reasons": [
-      "Closed"
-    ]
-  },
-  {
-    "latitude": 36.895829,
-    "longitude": -76.251244,
+    "latitude": 37.072236,
+    "longitude": -77.627697,
     "count": 1,
     "reasons": [
       "Disabled Vehicle"
@@ -18,8 +10,9 @@
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 1,
+    "count": 3,
     "reasons": [
+      "Disabled Vehicle",
       "Disabled Tractor Trailer"
     ]
   },
@@ -29,6 +22,14 @@
     "count": 1,
     "reasons": [
       "Closed"
+    ]
+  },
+  {
+    "latitude": 39.105767,
+    "longitude": -77.665006,
+    "count": 1,
+    "reasons": [
+      "Vehicle Crash"
     ]
   }
 ]

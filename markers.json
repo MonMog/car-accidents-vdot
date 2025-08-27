@@ -1,36 +1,10 @@
 [
   {
-    "latitude": 36.721982,
-    "longitude": -80.733116,
-    "count": 2,
-    "reasons": [
-      "Advisory"
-    ]
-  },
-  {
-    "latitude": 38.765686,
-    "longitude": -77.221351,
-    "count": 4,
-    "reasons": [
-      "Other Traffic",
-      "Disabled Vehicle",
-      "Vehicle Crash"
-    ]
-  },
-  {
-    "latitude": 38.876507,
-    "longitude": -77.099033,
+    "latitude": 36.895829,
+    "longitude": -76.251244,
     "count": 1,
     "reasons": [
-      "Other Traffic"
-    ]
-  },
-  {
-    "latitude": 36.674595,
-    "longitude": -76.303354,
-    "count": 2,
-    "reasons": [
-      "Disabled Vehicle"
+      "Bridge/Tunnel Stoppage"
     ]
   },
   {
@@ -42,19 +16,44 @@
     ]
   },
   {
-    "latitude": 37.575135,
-    "longitude": -79.812531,
+    "latitude": 38.765686,
+    "longitude": -77.221351,
+    "count": 2,
+    "reasons": [
+      "Disabled Vehicle",
+      "Other Traffic"
+    ]
+  },
+  {
+    "latitude": 37.915446,
+    "longitude": -79.442843,
+    "count": 1,
+    "reasons": [
+      "Tractor Trailer Crash"
+    ]
+  },
+  {
+    "latitude": 36.674595,
+    "longitude": -76.303354,
+    "count": 1,
+    "reasons": [
+      "Disabled Tractor Trailer"
+    ]
+  },
+  {
+    "latitude": 37.468543,
+    "longitude": -77.31012,
     "count": 1,
     "reasons": [
       "Disabled Vehicle"
     ]
   },
   {
-    "latitude": 37.183406,
-    "longitude": -80.381657,
+    "latitude": 37.575135,
+    "longitude": -79.812531,
     "count": 1,
     "reasons": [
-      "Vehicle Fire"
+      "Vehicle Crash"
     ]
   },
   {
@@ -66,11 +65,11 @@
     ]
   },
   {
-    "latitude": 37.662243,
-    "longitude": -76.637223,
+    "latitude": 38.656701,
+    "longitude": -77.417648,
     "count": 1,
     "reasons": [
-      "Vehicle Crash"
+      "Other Traffic"
     ]
   },
   {
@@ -79,14 +78,6 @@
     "count": 1,
     "reasons": [
       "Disabled Vehicle"
-    ]
-  },
-  {
-    "latitude": 37.232258,
-    "longitude": -79.073377,
-    "count": 1,
-    "reasons": [
-      "Vehicle Fire"
     ]
   }
 ]

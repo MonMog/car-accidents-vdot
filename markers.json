@@ -1,13 +1,5 @@
 [
   {
-    "latitude": 36.721982,
-    "longitude": -80.733116,
-    "count": 2,
-    "reasons": [
-      "Advisory"
-    ]
-  },
-  {
     "latitude": 37.412079,
     "longitude": -77.630101,
     "count": 1,
@@ -16,8 +8,26 @@
     ]
   },
   {
-    "latitude": 37.468543,
-    "longitude": -77.31012,
+    "latitude": 36.802695,
+    "longitude": -76.055211,
+    "count": 1,
+    "reasons": [
+      "Vehicle Crash"
+    ]
+  },
+  {
+    "latitude": 38.765686,
+    "longitude": -77.221351,
+    "count": 3,
+    "reasons": [
+      "Advisory",
+      "Disabled Vehicle",
+      "Tractor Trailer Crash"
+    ]
+  },
+  {
+    "latitude": 36.768592,
+    "longitude": -77.845384,
     "count": 1,
     "reasons": [
       "Vehicle Crash"
@@ -32,11 +42,27 @@
     ]
   },
   {
-    "latitude": 38.765686,
-    "longitude": -77.221351,
+    "latitude": 37.168319,
+    "longitude": -76.463474,
     "count": 1,
     "reasons": [
-      "Tractor Trailer Crash"
+      "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 38.449364,
+    "longitude": -77.473179,
+    "count": 1,
+    "reasons": [
+      "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 36.895829,
+    "longitude": -76.251244,
+    "count": 1,
+    "reasons": [
+      "Bridge/Tunnel Stoppage"
     ]
   }
 ]

@@ -1,16 +1,7 @@
 [
   {
-    "latitude": 37.412079,
-    "longitude": -77.630101,
-    "count": 2,
-    "reasons": [
-      "Multi-Vehicle Crash",
-      "Vehicle Crash"
-    ]
-  },
-  {
-    "latitude": 36.674595,
-    "longitude": -76.303354,
+    "latitude": 39.105767,
+    "longitude": -77.665006,
     "count": 2,
     "reasons": [
       "Disabled Vehicle",
@@ -18,11 +9,29 @@
     ]
   },
   {
-    "latitude": 39.105767,
-    "longitude": -77.665006,
+    "latitude": 36.690587,
+    "longitude": -76.616102,
     "count": 1,
     "reasons": [
       "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 37.412079,
+    "longitude": -77.630101,
+    "count": 6,
+    "reasons": [
+      "Vehicle Crash",
+      "Closed",
+      "Multi-Vehicle Crash"
+    ]
+  },
+  {
+    "latitude": 36.674595,
+    "longitude": -76.303354,
+    "count": 2,
+    "reasons": [
+      "Vehicle Crash"
     ]
   },
   {
@@ -31,6 +40,15 @@
     "count": 2,
     "reasons": [
       "Tractor Trailer Crash"
+    ]
+  },
+  {
+    "latitude": 37.232258,
+    "longitude": -79.073377,
+    "count": 2,
+    "reasons": [
+      "Advisory",
+      "Vehicle Crash"
     ]
   },
   {
@@ -44,40 +62,33 @@
   {
     "latitude": 38.656701,
     "longitude": -77.417648,
+    "count": 2,
+    "reasons": [
+      "Disabled Vehicle",
+      "Disabled Tractor Trailer"
+    ]
+  },
+  {
+    "latitude": 36.822489,
+    "longitude": -76.331835,
     "count": 1,
     "reasons": [
-      "Disabled Tractor Trailer"
+      "Congestion/Delay"
     ]
   },
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 4,
+    "count": 5,
     "reasons": [
       "Disabled Vehicle",
-      "Vehicle Crash"
+      "Multi-Vehicle Crash"
     ]
   },
   {
-    "latitude": 38.185543,
-    "longitude": -79.264732,
-    "count": 1,
-    "reasons": [
-      "Vehicle Crash"
-    ]
-  },
-  {
-    "latitude": 36.993306,
-    "longitude": -79.850232,
-    "count": 1,
-    "reasons": [
-      "Advisory"
-    ]
-  },
-  {
-    "latitude": 37.468543,
-    "longitude": -77.31012,
-    "count": 1,
+    "latitude": 36.802695,
+    "longitude": -76.055211,
+    "count": 2,
     "reasons": [
       "Disabled Vehicle"
     ]
@@ -91,11 +102,27 @@
     ]
   },
   {
-    "latitude": 38.449364,
-    "longitude": -77.473179,
+    "latitude": 37.057972,
+    "longitude": -76.368397,
+    "count": 1,
+    "reasons": [
+      "Congestion/Delay"
+    ]
+  },
+  {
+    "latitude": 37.168319,
+    "longitude": -76.463474,
     "count": 1,
     "reasons": [
       "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 37.183406,
+    "longitude": -80.381657,
+    "count": 1,
+    "reasons": [
+      "Advisory"
     ]
   }
 ]

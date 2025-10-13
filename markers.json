@@ -1,18 +1,19 @@
 [
   {
-    "latitude": 38.179497,
-    "longitude": -77.661503,
-    "count": 1,
+    "latitude": 37.513721,
+    "longitude": -76.993758,
+    "count": 2,
     "reasons": [
-      "Vehicle Crash"
+      "Disabled Vehicle",
+      "Multi-Vehicle Crash"
     ]
   },
   {
-    "latitude": 36.721982,
-    "longitude": -80.733116,
-    "count": 2,
+    "latitude": 36.993306,
+    "longitude": -79.850232,
+    "count": 1,
     "reasons": [
-      "Advisory"
+      "Disabled Vehicle"
     ]
   },
   {
@@ -24,46 +25,77 @@
     ]
   },
   {
-    "latitude": 38.656701,
-    "longitude": -77.417648,
-    "count": 2,
+    "latitude": 37.468543,
+    "longitude": -77.31012,
+    "count": 1,
     "reasons": [
-      "Other Traffic",
-      "Disabled Tractor Trailer"
+      "Disabled Vehicle"
     ]
   },
   {
-    "latitude": 37.137829,
-    "longitude": -76.554954,
+    "latitude": 38.622309,
+    "longitude": -78.944232,
     "count": 1,
     "reasons": [
-      "Vehicle Crash"
+      "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 36.701403,
+    "longitude": -78.398297,
+    "count": 1,
+    "reasons": [
+      "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 39.105767,
+    "longitude": -77.665006,
+    "count": 2,
+    "reasons": [
+      "Other Traffic"
     ]
   },
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 3,
+    "count": 4,
     "reasons": [
-      "Vehicle Crash",
-      "Disabled Vehicle",
-      "Other Traffic"
+      "Other Traffic",
+      "Disabled Vehicle"
     ]
   },
   {
-    "latitude": 38.185543,
-    "longitude": -79.264732,
-    "count": 2,
+    "latitude": 38.656701,
+    "longitude": -77.417648,
+    "count": 1,
     "reasons": [
-      "Advisory"
+      "Disabled Tractor Trailer"
+    ]
+  },
+  {
+    "latitude": 37.752557,
+    "longitude": -78.001257,
+    "count": 1,
+    "reasons": [
+      "Disabled Vehicle"
     ]
   },
   {
     "latitude": 36.895829,
     "longitude": -76.251244,
+    "count": 2,
+    "reasons": [
+      "Advisory",
+      "Bridge/Tunnel Stoppage"
+    ]
+  },
+  {
+    "latitude": 38.302992,
+    "longitude": -77.486428,
     "count": 1,
     "reasons": [
-      "Advisory"
+      "Disabled Vehicle"
     ]
   }
 ]

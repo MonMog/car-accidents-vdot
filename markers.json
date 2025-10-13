@@ -1,13 +1,5 @@
 [
   {
-    "latitude": 36.802695,
-    "longitude": -76.055211,
-    "count": 1,
-    "reasons": [
-      "Advisory"
-    ]
-  },
-  {
     "latitude": 38.765686,
     "longitude": -77.221351,
     "count": 1,
@@ -18,18 +10,28 @@
   {
     "latitude": 38.656701,
     "longitude": -77.417648,
-    "count": 1,
+    "count": 2,
     "reasons": [
-      "Disabled Tractor Trailer"
+      "Disabled Tractor Trailer",
+      "Disabled Vehicle"
     ]
   },
   {
     "latitude": 36.895829,
     "longitude": -76.251244,
-    "count": 2,
+    "count": 3,
     "reasons": [
       "Advisory",
+      "Disabled Vehicle",
       "Other Security/Police Activity"
+    ]
+  },
+  {
+    "latitude": 38.272107,
+    "longitude": -77.142027,
+    "count": 1,
+    "reasons": [
+      "Closed"
     ]
   },
   {

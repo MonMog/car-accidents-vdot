@@ -1,39 +1,36 @@
 [
   {
-    "latitude": 37.468543,
-    "longitude": -77.31012,
-    "count": 2,
-    "reasons": [
-      "Disabled Vehicle"
-    ]
-  },
-  {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 6,
+    "count": 7,
     "reasons": [
-      "Other Traffic",
-      "Vehicle Crash",
-      "Disabled Vehicle"
+      "Disabled Vehicle",
+      "Vehicle Crash"
     ]
   },
   {
-    "latitude": 36.674595,
-    "longitude": -76.303354,
+    "latitude": 36.895829,
+    "longitude": -76.251244,
     "count": 2,
     "reasons": [
-      "Vehicle Crash",
+      "Disabled Vehicle",
+      "Vehicle Crash"
+    ]
+  },
+  {
+    "latitude": 37.137829,
+    "longitude": -76.554954,
+    "count": 1,
+    "reasons": [
       "Disabled Vehicle"
     ]
   },
   {
-    "latitude": 38.179497,
-    "longitude": -77.661503,
-    "count": 4,
+    "latitude": 38.656701,
+    "longitude": -77.417648,
+    "count": 1,
     "reasons": [
-      "Advisory",
-      "Vehicle Crash",
-      "Tractor Trailer Crash"
+      "Disabled Vehicle"
     ]
   },
   {
@@ -45,27 +42,27 @@
     ]
   },
   {
-    "latitude": 37.975181,
-    "longitude": -77.906624,
+    "latitude": 37.184566,
+    "longitude": -79.516073,
     "count": 1,
     "reasons": [
-      "Disabled Vehicle"
+      "Brush Fire"
     ]
   },
   {
-    "latitude": 36.895829,
-    "longitude": -76.251244,
-    "count": 1,
-    "reasons": [
-      "Bridge/Tunnel Stoppage"
-    ]
-  },
-  {
-    "latitude": 37.232258,
-    "longitude": -79.073377,
+    "latitude": 38.440933,
+    "longitude": -78.864432,
     "count": 1,
     "reasons": [
       "Vehicle Crash"
+    ]
+  },
+  {
+    "latitude": 38.179497,
+    "longitude": -77.661503,
+    "count": 1,
+    "reasons": [
+      "Tractor Trailer Crash"
     ]
   }
 ]

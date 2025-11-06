@@ -1,39 +1,45 @@
 [
   {
-    "latitude": 36.690587,
-    "longitude": -76.616102,
-    "count": 1,
+    "latitude": 36.674595,
+    "longitude": -76.303354,
+    "count": 4,
     "reasons": [
-      "Bridge/Tunnel Stoppage"
+      "Other Traffic",
+      "Disabled Vehicle",
+      "Multi-Vehicle Crash",
+      "Tractor Trailer Crash"
     ]
   },
   {
-    "latitude": 36.674595,
-    "longitude": -76.303354,
-    "count": 2,
+    "latitude": 37.30425,
+    "longitude": -80.70422,
+    "count": 1,
     "reasons": [
-      "Tractor Trailer Crash",
-      "Multi-Vehicle Crash"
+      "Advisory"
     ]
   },
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 10,
+    "count": 4,
     "reasons": [
-      "Disabled Vehicle",
-      "Vehicle Crash",
-      "Multi-Vehicle Crash"
+      "Disabled Vehicle"
     ]
   },
   {
     "latitude": 38.656701,
     "longitude": -77.417648,
-    "count": 3,
+    "count": 1,
     "reasons": [
-      "Disabled Vehicle",
-      "Vehicle Crash",
-      "Closed"
+      "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 37.412079,
+    "longitude": -77.630101,
+    "count": 1,
+    "reasons": [
+      "Disabled Vehicle"
     ]
   },
   {
@@ -45,43 +51,19 @@
     ]
   },
   {
-    "latitude": 36.721982,
-    "longitude": -80.733116,
-    "count": 2,
+    "latitude": 38.035726,
+    "longitude": -77.346139,
+    "count": 1,
     "reasons": [
-      "Advisory"
+      "Vehicle Crash"
     ]
   },
   {
-    "latitude": 37.468543,
-    "longitude": -77.31012,
+    "latitude": 38.185543,
+    "longitude": -79.264732,
     "count": 1,
     "reasons": [
-      "Disabled Vehicle"
-    ]
-  },
-  {
-    "latitude": 36.895829,
-    "longitude": -76.251244,
-    "count": 1,
-    "reasons": [
-      "Disabled Vehicle"
-    ]
-  },
-  {
-    "latitude": 37.837635,
-    "longitude": -77.625236,
-    "count": 1,
-    "reasons": [
-      "Disabled Vehicle"
-    ]
-  },
-  {
-    "latitude": 36.772558,
-    "longitude": -78.926338,
-    "count": 1,
-    "reasons": [
-      "Tractor Trailer Crash"
+      "Vehicle Crash"
     ]
   },
   {
@@ -90,6 +72,38 @@
     "count": 1,
     "reasons": [
       "Other Traffic"
+    ]
+  },
+  {
+    "latitude": 37.183406,
+    "longitude": -80.381657,
+    "count": 1,
+    "reasons": [
+      "Tractor Trailer Crash"
+    ]
+  },
+  {
+    "latitude": 36.732508,
+    "longitude": -81.965996,
+    "count": 1,
+    "reasons": [
+      "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 36.911876,
+    "longitude": -81.078712,
+    "count": 1,
+    "reasons": [
+      "Vehicle Crash"
+    ]
+  },
+  {
+    "latitude": 36.690587,
+    "longitude": -76.616102,
+    "count": 1,
+    "reasons": [
+      "Vehicle Fire"
     ]
   }
 ]

@@ -91,21 +91,21 @@
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 18072,
+    "count": 18073,
     "reasons": [
-      "Vehicle Crash",
-      "Disabled Tractor Trailer",
-      "Other Traffic",
-      "Congestion/Delay",
-      "Numerous Crash",
-      "Disabled Vehicle",
-      "Vehicle Fire",
-      "Closed",
-      "Other Security/Police Activity",
-      "Advisory",
-      "Brush Fire",
       "Multi-Vehicle Crash",
-      "Tractor Trailer Crash"
+      "Disabled Vehicle",
+      "Brush Fire",
+      "Other Traffic",
+      "Numerous Crash",
+      "Congestion/Delay",
+      "Vehicle Fire",
+      "Other Security/Police Activity",
+      "Disabled Tractor Trailer",
+      "Advisory",
+      "Tractor Trailer Crash",
+      "Closed",
+      "Vehicle Crash"
     ]
   },
   {
@@ -338,20 +338,20 @@
   {
     "latitude": 37.468543,
     "longitude": -77.31012,
-    "count": 3388,
+    "count": 3389,
     "reasons": [
+      "Multi-Vehicle Crash",
       "Disabled Vehicle",
+      "Brush Fire",
       "Other Traffic",
       "Numerous Crash",
-      "Vehicle Crash",
-      "Disabled Tractor Trailer",
       "Other Security/Police Activity",
-      "Advisory",
-      "Multi-Vehicle Crash",
-      "Closed",
-      "Brush Fire",
       "Vehicle Fire",
-      "Tractor Trailer Crash"
+      "Disabled Tractor Trailer",
+      "Advisory",
+      "Tractor Trailer Crash",
+      "Closed",
+      "Vehicle Crash"
     ]
   },
   {
@@ -720,20 +720,20 @@
   {
     "latitude": 37.212162,
     "longitude": -80.124835,
-    "count": 889,
+    "count": 890,
     "reasons": [
-      "Disabled Vehicle",
-      "Closed",
       "Multi-Vehicle Crash",
-      "Other Traffic",
+      "Disabled Vehicle",
       "Brush Fire",
+      "Other Traffic",
+      "Other Security/Police Activity",
+      "Congestion/Delay",
+      "Vehicle Fire",
       "Tractor Trailer Crash",
       "Advisory",
-      "Vehicle Crash",
-      "Other Security/Police Activity",
       "Disabled Tractor Trailer",
-      "Congestion/Delay",
-      "Vehicle Fire"
+      "Closed",
+      "Vehicle Crash"
     ]
   },
   {

@@ -1,19 +1,10 @@
 [
   {
-    "latitude": 36.721982,
-    "longitude": -80.733116,
+    "latitude": 38.876507,
+    "longitude": -77.099033,
     "count": 1,
     "reasons": [
-      "Multi-Vehicle Crash"
-    ]
-  },
-  {
-    "latitude": 38.622309,
-    "longitude": -78.944232,
-    "count": 2,
-    "reasons": [
-      "Multi-Vehicle Crash",
-      "Tractor Trailer Crash"
+      "Other Traffic"
     ]
   },
   {
@@ -21,23 +12,25 @@
     "longitude": -77.221351,
     "count": 2,
     "reasons": [
+      "Other Traffic",
       "Vehicle Crash"
     ]
   },
   {
-    "latitude": 37.468543,
-    "longitude": -77.31012,
-    "count": 1,
+    "latitude": 37.837635,
+    "longitude": -77.625236,
+    "count": 2,
     "reasons": [
+      "Disabled Vehicle",
       "Vehicle Crash"
     ]
   },
   {
-    "latitude": 37.795114,
-    "longitude": -78.868824,
+    "latitude": 38.656701,
+    "longitude": -77.417648,
     "count": 1,
     "reasons": [
-      "Multi-Vehicle Crash"
+      "Disabled Vehicle"
     ]
   },
   {
@@ -49,11 +42,12 @@
     ]
   },
   {
-    "latitude": 37.412079,
-    "longitude": -77.630101,
-    "count": 1,
+    "latitude": 37.468543,
+    "longitude": -77.31012,
+    "count": 2,
     "reasons": [
-      "Disabled Vehicle"
+      "Disabled Vehicle",
+      "Vehicle Crash"
     ]
   },
   {
@@ -65,11 +59,34 @@
     ]
   },
   {
-    "latitude": 38.179497,
-    "longitude": -77.661503,
-    "count": 2,
+    "latitude": 36.802695,
+    "longitude": -76.055211,
+    "count": 1,
     "reasons": [
-      "Multi-Vehicle Crash",
+      "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 36.674595,
+    "longitude": -76.303354,
+    "count": 1,
+    "reasons": [
+      "Vehicle Crash"
+    ]
+  },
+  {
+    "latitude": 38.622309,
+    "longitude": -78.944232,
+    "count": 1,
+    "reasons": [
+      "Multi-Vehicle Crash"
+    ]
+  },
+  {
+    "latitude": 37.183406,
+    "longitude": -80.381657,
+    "count": 1,
+    "reasons": [
       "Tractor Trailer Crash"
     ]
   }

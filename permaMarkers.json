@@ -91,21 +91,21 @@
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 19121,
+    "count": 19122,
     "reasons": [
-      "Disabled Vehicle",
-      "Other Security/Police Activity",
-      "Multi-Vehicle Crash",
-      "Tractor Trailer Crash",
-      "Other Traffic",
       "Vehicle Fire",
-      "Congestion/Delay",
+      "Disabled Vehicle",
+      "Disabled Tractor Trailer",
+      "Closed",
       "Brush Fire",
+      "Other Security/Police Activity",
       "Numerous Crash",
       "Advisory",
+      "Tractor Trailer Crash",
+      "Congestion/Delay",
+      "Multi-Vehicle Crash",
       "Vehicle Crash",
-      "Disabled Tractor Trailer",
-      "Closed"
+      "Other Traffic"
     ]
   },
   {
@@ -231,19 +231,19 @@
   {
     "latitude": 38.656701,
     "longitude": -77.417648,
-    "count": 5904,
+    "count": 5906,
     "reasons": [
-      "Closed",
-      "Multi-Vehicle Crash",
-      "Advisory",
       "Vehicle Fire",
-      "Congestion/Delay",
-      "Other Traffic",
-      "Other Security/Police Activity",
+      "Disabled Vehicle",
       "Disabled Tractor Trailer",
-      "Vehicle Crash",
+      "Closed",
+      "Advisory",
+      "Other Security/Police Activity",
       "Tractor Trailer Crash",
-      "Disabled Vehicle"
+      "Congestion/Delay",
+      "Multi-Vehicle Crash",
+      "Vehicle Crash",
+      "Other Traffic"
     ]
   },
   {
@@ -413,19 +413,19 @@
   {
     "latitude": 36.674595,
     "longitude": -76.303354,
-    "count": 2863,
+    "count": 2864,
     "reasons": [
-      "Other Security/Police Activity",
-      "Multi-Vehicle Crash",
-      "Bridge/Tunnel Stoppage",
-      "Disabled Vehicle",
-      "Other Traffic",
-      "Congestion/Delay",
       "Vehicle Fire",
-      "Tractor Trailer Crash",
+      "Disabled Vehicle",
+      "Disabled Tractor Trailer",
+      "Other Security/Police Activity",
       "Advisory",
       "Vehicle Crash",
-      "Disabled Tractor Trailer"
+      "Tractor Trailer Crash",
+      "Congestion/Delay",
+      "Multi-Vehicle Crash",
+      "Bridge/Tunnel Stoppage",
+      "Other Traffic"
     ]
   },
   {
@@ -533,16 +533,16 @@
   {
     "latitude": 37.264874,
     "longitude": -77.397759,
-    "count": 249,
+    "count": 250,
     "reasons": [
-      "Other Traffic",
-      "Multi-Vehicle Crash",
       "Vehicle Fire",
-      "Disabled Tractor Trailer",
-      "Vehicle Crash",
       "Disabled Vehicle",
+      "Disabled Tractor Trailer",
+      "Other Security/Police Activity",
       "Tractor Trailer Crash",
-      "Other Security/Police Activity"
+      "Multi-Vehicle Crash",
+      "Vehicle Crash",
+      "Other Traffic"
     ]
   },
   {
@@ -1227,14 +1227,14 @@
   {
     "latitude": 36.963934,
     "longitude": -78.264171,
-    "count": 157,
+    "count": 158,
     "reasons": [
-      "Vehicle Crash",
-      "Tractor Trailer Crash",
-      "Disabled Tractor Trailer",
       "Disabled Vehicle",
+      "Disabled Tractor Trailer",
+      "Tractor Trailer Crash",
+      "Closed",
       "Advisory",
-      "Closed"
+      "Vehicle Crash"
     ]
   },
   {

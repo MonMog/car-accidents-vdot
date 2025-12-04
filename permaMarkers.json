@@ -91,20 +91,20 @@
   {
     "latitude": 38.765686,
     "longitude": -77.221351,
-    "count": 19113,
+    "count": 19119,
     "reasons": [
-      "Closed",
-      "Multi-Vehicle Crash",
       "Brush Fire",
-      "Advisory",
+      "Disabled Tractor Trailer",
+      "Multi-Vehicle Crash",
+      "Other Security/Police Activity",
+      "Congestion/Delay",
+      "Vehicle Crash",
       "Vehicle Fire",
       "Numerous Crash",
-      "Congestion/Delay",
-      "Other Traffic",
-      "Disabled Tractor Trailer",
-      "Other Security/Police Activity",
-      "Vehicle Crash",
+      "Closed",
       "Tractor Trailer Crash",
+      "Advisory",
+      "Other Traffic",
       "Disabled Vehicle"
     ]
   },
@@ -180,19 +180,19 @@
   {
     "latitude": 37.575135,
     "longitude": -79.812531,
-    "count": 647,
+    "count": 648,
     "reasons": [
-      "Numerous Crash",
-      "Vehicle Fire",
-      "Other Traffic",
-      "Advisory",
-      "Other Security/Police Activity",
-      "Vehicle Crash",
-      "Closed",
-      "Congestion/Delay",
-      "Multi-Vehicle Crash",
-      "Tractor Trailer Crash",
       "Disabled Tractor Trailer",
+      "Multi-Vehicle Crash",
+      "Other Security/Police Activity",
+      "Congestion/Delay",
+      "Vehicle Crash",
+      "Vehicle Fire",
+      "Numerous Crash",
+      "Closed",
+      "Tractor Trailer Crash",
+      "Advisory",
+      "Other Traffic",
       "Disabled Vehicle"
     ]
   },
@@ -322,19 +322,19 @@
   {
     "latitude": 38.102743,
     "longitude": -78.638705,
-    "count": 1134,
+    "count": 1135,
     "reasons": [
+      "Brush Fire",
+      "Multi-Vehicle Crash",
+      "Other Security/Police Activity",
+      "Congestion/Delay",
+      "Vehicle Crash",
       "Vehicle Fire",
+      "Closed",
       "Disabled Tractor Trailer",
       "Tractor Trailer Crash",
-      "Congestion/Delay",
-      "Multi-Vehicle Crash",
       "Other Traffic",
-      "Disabled Vehicle",
-      "Closed",
-      "Vehicle Crash",
-      "Brush Fire",
-      "Other Security/Police Activity"
+      "Disabled Vehicle"
     ]
   },
   {
@@ -548,17 +548,17 @@
   {
     "latitude": 36.772558,
     "longitude": -78.926338,
-    "count": 172,
+    "count": 173,
     "reasons": [
-      "Closed",
-      "Disabled Tractor Trailer",
       "Multi-Vehicle Crash",
-      "Tractor Trailer Crash",
       "Vehicle Crash",
+      "Closed",
       "Vehicle Fire",
+      "Disabled Tractor Trailer",
+      "Tractor Trailer Crash",
       "Advisory",
-      "Disabled Vehicle",
-      "Other Traffic"
+      "Other Traffic",
+      "Disabled Vehicle"
     ]
   },
   {
@@ -788,35 +788,35 @@
   {
     "latitude": 37.155092,
     "longitude": -81.100517,
-    "count": 214,
+    "count": 215,
     "reasons": [
+      "Brush Fire",
+      "Bridge/Tunnel Stoppage",
       "Multi-Vehicle Crash",
       "Vehicle Crash",
-      "Brush Fire",
-      "Disabled Vehicle",
       "Vehicle Fire",
       "Disabled Tractor Trailer",
       "Tractor Trailer Crash",
-      "Bridge/Tunnel Stoppage",
+      "Advisory",
       "Other Traffic",
-      "Advisory"
+      "Disabled Vehicle"
     ]
   },
   {
     "latitude": 37.206904,
     "longitude": -77.391893,
-    "count": 412,
+    "count": 413,
     "reasons": [
+      "Multi-Vehicle Crash",
       "Other Security/Police Activity",
+      "Vehicle Crash",
+      "Vehicle Fire",
       "Numerous Crash",
+      "Disabled Tractor Trailer",
       "Tractor Trailer Crash",
       "Advisory",
-      "Vehicle Fire",
-      "Multi-Vehicle Crash",
-      "Disabled Vehicle",
-      "Disabled Tractor Trailer",
       "Other Traffic",
-      "Vehicle Crash"
+      "Disabled Vehicle"
     ]
   },
   {
@@ -1648,14 +1648,14 @@
   {
     "latitude": 37.795114,
     "longitude": -78.868824,
-    "count": 57,
+    "count": 58,
     "reasons": [
-      "Closed",
-      "Multi-Vehicle Crash",
-      "Advisory",
-      "Disabled Tractor Trailer",
       "Vehicle Crash",
+      "Disabled Tractor Trailer",
+      "Closed",
       "Tractor Trailer Crash",
+      "Advisory",
+      "Multi-Vehicle Crash",
       "Disabled Vehicle"
     ]
   },

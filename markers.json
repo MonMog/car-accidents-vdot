@@ -1,10 +1,18 @@
 [
   {
-    "latitude": 37.137829,
-    "longitude": -76.554954,
+    "latitude": 37.468543,
+    "longitude": -77.31012,
     "count": 1,
     "reasons": [
-      "Other Traffic"
+      "Disabled Vehicle"
+    ]
+  },
+  {
+    "latitude": 38.82168,
+    "longitude": -77.086715,
+    "count": 2,
+    "reasons": [
+      "Disabled Vehicle"
     ]
   },
   {
@@ -12,23 +20,8 @@
     "longitude": -77.221351,
     "count": 2,
     "reasons": [
+      "Other Traffic",
       "Disabled Vehicle"
-    ]
-  },
-  {
-    "latitude": 38.449364,
-    "longitude": -77.473179,
-    "count": 1,
-    "reasons": [
-      "Disabled Vehicle"
-    ]
-  },
-  {
-    "latitude": 36.721982,
-    "longitude": -80.733116,
-    "count": 2,
-    "reasons": [
-      "Advisory"
     ]
   },
   {
@@ -40,11 +33,11 @@
     ]
   },
   {
-    "latitude": 38.82168,
-    "longitude": -77.086715,
+    "latitude": 38.179497,
+    "longitude": -77.661503,
     "count": 1,
     "reasons": [
-      "Disabled Vehicle"
+      "Other Traffic"
     ]
   }
 ]

@@ -1,5 +1,15 @@
 [
   {
+    "latitude": 38.765686,
+    "longitude": -77.221351,
+    "count": 3,
+    "reasons": [
+      "Disabled Vehicle",
+      "Vehicle Crash",
+      "Advisory"
+    ]
+  },
+  {
     "latitude": 36.895829,
     "longitude": -76.251244,
     "count": 1,
@@ -8,11 +18,11 @@
     ]
   },
   {
-    "latitude": 38.765686,
-    "longitude": -77.221351,
+    "latitude": 36.822489,
+    "longitude": -76.331835,
     "count": 1,
     "reasons": [
-      "Vehicle Crash"
+      "Disabled Vehicle"
     ]
   }
 ]
